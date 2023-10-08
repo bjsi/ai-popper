@@ -1,0 +1,23 @@
+{
+  "name": "ai-popper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "ts-node src/data/update.ts",
+    "chat": "ts-node src/data/chat.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.3",
+    "dotenv": "^16.3.1",
+    "modelfusion": "^0.41.1",
+    "node-webvtt": "^1.9.4",
+    "pdfjs-dist": "^3.11.174",
+    "ts-node": "^10.9.1",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.21.4"
+  }
+}
