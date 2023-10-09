@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "ts-node src/data/update.ts",
+    "embed": "ts-node src/data/embed.ts",
     "chat": "ts-node src/data/chat.ts"
   },
   "author": "",
@@ -16,6 +17,7 @@
     "modelfusion": "^0.41.1",
     "node-webvtt": "^1.9.4",
     "pdfjs-dist": "^3.11.174",
+    "subtitle": "^4.2.1",
     "ts-node": "^10.9.1",
     "zod": "^3.22.4",
     "zod-to-json-schema": "^3.21.4"

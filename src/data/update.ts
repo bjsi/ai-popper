@@ -2,6 +2,13 @@ import { readFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import { execSync } from "child_process";
 import { z } from "zod";
 import path from "path";
+import {
+  allProcessdVideosFolder,
+  allTranscriptsFolder,
+  getTranscriptsDownloadedVideosFilePath,
+  getTranscriptsFolderPath,
+  sourcesFile,
+} from "./filesystem";
 
 const sourceDataSchema = z.object({
   sources: z
@@ -11,13 +18,6 @@ const sourceDataSchema = z.object({
     })
     .array(),
 });
-
-const allTranscriptsFolder = path.join(__dirname, "youtube/transcripts");
-const allProcessdVideosFolder = path.join(
-  __dirname,
-  "youtube/downloadedTranscripts"
-);
-const sourcesFile = path.join(__dirname, "sources.json");
 
 async function main() {
   const data = readFileSync(sourcesFile, "utf-8");
@@ -41,11 +41,8 @@ async function main() {
     const channelName = source.name.replace(/\s+/g, "_");
     const channelURL = source.source;
 
-    const transcriptDir = path.join(allTranscriptsFolder, channelName);
-    const processedFile = path.join(
-      allProcessdVideosFolder,
-      `${channelName}.json`
-    );
+    const transcriptDir = getTranscriptsFolderPath(channelName);
+    const processedFile = getTranscriptsDownloadedVideosFilePath(channelName);
 
     if (!existsSync(transcriptDir)) {
       mkdirSync(transcriptDir);
@@ -58,7 +55,7 @@ async function main() {
     }
 
     // Fetch all video IDs from the channel
-    console.log(`Fetching video IDs for ${channelName} (can be slow...`);
+    console.log(`Fetching all video IDs for ${channelName} (can be slow)...`);
     const videoIdCommand = `yt-dlp --get-id -i "${channelURL}"`;
     const videoIdsRaw = execSync(videoIdCommand).toString().trim();
     const videoIds = videoIdsRaw.split("\n");
