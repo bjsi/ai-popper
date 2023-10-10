@@ -1,0 +1,2990 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:07.680
+welcome to topcast into chapter six of my&nbsp;
+breakdown of the fabric of reality chapter six is&nbsp;&nbsp;
+
+00:00:07.680 --> 00:00:15.200
+called titled universality and the limits of&nbsp;
+computation now david deutsch is expert in&nbsp;&nbsp;
+
+00:00:15.760 --> 00:00:20.080
+the topics he writes about in the beginning&nbsp;
+of infinity and in the fabric of reality&nbsp;&nbsp;
+
+00:00:20.080 --> 00:00:26.240
+but if we were to talk wheel houses&nbsp;
+as people sometimes do the thing that&nbsp;&nbsp;
+
+00:00:26.240 --> 00:00:32.960
+you spend your career your life pursuing then&nbsp;
+this is one of those david deutsch has a lot of&nbsp;&nbsp;
+
+00:00:32.960 --> 00:00:38.640
+wheelhouses but this is certainly one right in&nbsp;
+the dead center of david deutsch's professional&nbsp;&nbsp;
+
+00:00:38.640 --> 00:00:46.080
+interests one of the reasons for david deutsch's&nbsp;
+fame among other physicists is because of his&nbsp;&nbsp;
+
+00:00:46.080 --> 00:00:53.600
+contribution to this area of science which we&nbsp;
+call computational computer science in fact it&nbsp;&nbsp;
+
+00:00:53.600 --> 00:01:01.840
+really was down to david to bring computer science&nbsp;
+into science itself before that it was treated as&nbsp;&nbsp;
+
+00:01:01.840 --> 00:01:07.920
+an area of mathematics of pure mathematics&nbsp;
+treated in the abstract and it was david who&nbsp;&nbsp;
+
+00:01:08.480 --> 00:01:14.640
+explained how and why it should be regarded&nbsp;
+more as a part of physics it's a simple idea&nbsp;&nbsp;
+
+00:01:14.640 --> 00:01:20.000
+computers are made of matter matter obeys the&nbsp;
+laws of physics therefore what computers can do&nbsp;&nbsp;
+
+00:01:20.000 --> 00:01:27.120
+is bounded by the laws of physics this particular&nbsp;
+chapter is one of my favorites in the entire book&nbsp;&nbsp;
+
+00:01:27.120 --> 00:01:36.160
+it is inside bomb after insight bomb which means&nbsp;
+i am going to take my time with passages here even&nbsp;&nbsp;
+
+00:01:36.160 --> 00:01:41.920
+more so than what i normally would in order to&nbsp;
+break them down or emphasize them but i'm going&nbsp;&nbsp;
+
+00:01:41.920 --> 00:01:47.120
+to begin just by reading the first paragraph on&nbsp;
+the first page of the book and then i'm going to&nbsp;&nbsp;
+
+00:01:47.120 --> 00:01:52.800
+skip rather a lot and i'll explain why in just&nbsp;
+a moment but let's get into the reading and&nbsp;&nbsp;
+
+00:01:52.800 --> 00:01:58.640
+perhaps for those picking it up in this episode&nbsp;
+for whatever reason the last episode was about&nbsp;&nbsp;
+
+00:01:59.280 --> 00:02:06.080
+virtual reality generators now why on earth would&nbsp;
+one write a book about the fabric of reality about&nbsp;&nbsp;
+
+00:02:06.080 --> 00:02:11.360
+cosmically significant things and concentrate on&nbsp;
+something seemingly as parochial and as quirky as&nbsp;&nbsp;
+
+00:02:12.000 --> 00:02:17.920
+virtual reality well there is an important reason&nbsp;
+why and that is because we human beings our minds&nbsp;&nbsp;
+
+00:02:17.920 --> 00:02:23.840
+are essentially virtual reality rendering machines&nbsp;
+we are minds and we are connected to the rest&nbsp;&nbsp;
+
+00:02:23.840 --> 00:02:31.440
+of real physical reality via sensors which are&nbsp;
+creating for us a an impression of the environment&nbsp;&nbsp;
+
+00:02:32.160 --> 00:02:37.600
+it's a virtual reality rendering of whatever&nbsp;
+real reality happens to be which we don't have&nbsp;&nbsp;
+
+00:02:37.600 --> 00:02:43.360
+direct access to so virtual reality a study of&nbsp;
+virtual reality not only gives an insight into&nbsp;&nbsp;
+
+00:02:44.080 --> 00:02:49.440
+the workings of people but things that can&nbsp;
+do computations more broadly and hence david&nbsp;&nbsp;
+
+00:02:49.440 --> 00:02:55.760
+begins the chapter with quote the heart of a&nbsp;
+virtual reality generator is its computer and the&nbsp;&nbsp;
+
+00:02:55.760 --> 00:03:01.120
+question of what environments can be rendered in&nbsp;
+virtual reality must eventually come down to the&nbsp;&nbsp;
+
+00:03:01.120 --> 00:03:06.960
+question of what computations can be performed&nbsp;
+even today the repertoire of virtual reality&nbsp;&nbsp;
+
+00:03:06.960 --> 00:03:12.800
+generators is limited as much by their computers&nbsp;
+as by the image generators whenever a new faster&nbsp;&nbsp;
+
+00:03:12.800 --> 00:03:17.840
+computer with more memory and better image&nbsp;
+processing hardware is incorporated into a virtual&nbsp;&nbsp;
+
+00:03:17.840 --> 00:03:24.880
+reality generator the repertoire is enlarged&nbsp;
+but will it always be so or will we eventually&nbsp;&nbsp;
+
+00:03:24.880 --> 00:03:31.440
+encounter full universality as i have argued we&nbsp;
+should expect in the case of image generators&nbsp;&nbsp;
+
+00:03:31.440 --> 00:03:37.760
+in other words is there a single virtual reality&nbsp;
+generator buildable once and for all that could&nbsp;&nbsp;
+
+00:03:37.760 --> 00:03:43.520
+be programmed to render any environment that&nbsp;
+the human mind is capable of experiencing&nbsp;&nbsp;
+
+00:03:43.520 --> 00:03:48.960
+end quote but i might just i'll just um pick&nbsp;
+up a a a couple of short paragraphs here which&nbsp;&nbsp;
+
+00:03:50.320 --> 00:03:54.640
+speak about the limitations of computers the way&nbsp;
+in which computers must be limited by the laws&nbsp;&nbsp;
+
+00:03:54.640 --> 00:04:00.320
+of physics a taster so to speak of why it is that&nbsp;
+there are these limitations placed upon computers&nbsp;&nbsp;
+
+00:04:00.960 --> 00:04:05.840
+david rights quote a computer with an effectively&nbsp;
+unlimited memory capacity can be envisaged in&nbsp;&nbsp;
+
+00:04:05.840 --> 00:04:11.520
+principle but a computer with an unlimited&nbsp;
+speed of computation cannot a computer of&nbsp;&nbsp;
+
+00:04:11.520 --> 00:04:17.040
+given design will always have a fixed maximum&nbsp;
+speed which only design changes can increase&nbsp;&nbsp;
+
+00:04:17.680 --> 00:04:23.760
+end quote now why is this well because we've&nbsp;
+got this limitation on imposed by the speed of&nbsp;&nbsp;
+
+00:04:23.760 --> 00:04:29.760
+light stuff can't happen faster than the speed of&nbsp;
+light and so so signals can't be sent faster than&nbsp;&nbsp;
+
+00:04:29.760 --> 00:04:33.520
+a speed of light at the speed of light sure but&nbsp;
+faster than the speed of light so you have this&nbsp;&nbsp;
+
+00:04:33.520 --> 00:04:38.320
+inherent limitation imposed by the laws of&nbsp;
+physics let's just read on a little bit further&nbsp;&nbsp;
+
+00:04:38.320 --> 00:04:43.360
+quote therefore a given virtual reality generator&nbsp;
+will not be able to perform unlimited amounts of&nbsp;&nbsp;
+
+00:04:43.360 --> 00:04:48.880
+computation per unit time will this not limit its&nbsp;
+repertoire if an environment is so complex that&nbsp;&nbsp;
+
+00:04:48.880 --> 00:04:54.560
+the computation of what the user should be seeing&nbsp;
+one second from now takes the machine more than&nbsp;&nbsp;
+
+00:04:54.560 --> 00:05:00.000
+one second to compute how can the machine possibly&nbsp;
+render that environment accurately to achieve&nbsp;&nbsp;
+
+00:05:00.000 --> 00:05:05.920
+universality we need a further technological trick&nbsp;
+to extend its repertoire as far as is physically&nbsp;&nbsp;
+
+00:05:05.920 --> 00:05:11.200
+possible a virtual reality generator would have&nbsp;
+to take control of one further attribute of the&nbsp;&nbsp;
+
+00:05:11.200 --> 00:05:17.200
+user sensory system namely the processing speed&nbsp;
+of the user's brain if the human brain will like&nbsp;&nbsp;
+
+00:05:17.200 --> 00:05:21.840
+an electronic computer this would simply be a&nbsp;
+matter of changing the rate at which its clock&nbsp;&nbsp;
+
+00:05:21.840 --> 00:05:26.560
+emits synchronizing pulses no doubt the&nbsp;
+brain's clock will not be so easily controlled&nbsp;&nbsp;
+
+00:05:26.560 --> 00:05:33.760
+but again this presents no problem of principle&nbsp;
+the brain is a finite physical object and all&nbsp;&nbsp;
+
+00:05:33.760 --> 00:05:39.760
+its functions are physical processes which&nbsp;
+in principle can be slowed down or stopped&nbsp;&nbsp;
+
+00:05:40.400 --> 00:05:44.800
+the ultimate virtual reality generator&nbsp;
+would have to be capable of doing that&nbsp;&nbsp;
+
+00:05:44.800 --> 00:05:52.480
+end quote now i'm ending the quotation there&nbsp;
+because then david goes into the details about&nbsp;&nbsp;
+
+00:05:52.480 --> 00:05:59.120
+how virtual reality generators could be built&nbsp;
+that could even tinker with your own brain&nbsp;&nbsp;
+
+00:05:59.120 --> 00:06:04.880
+the mechanics of this is interesting and it's&nbsp;
+worthwhile if of course i presume that people&nbsp;&nbsp;
+
+00:06:04.880 --> 00:06:09.280
+who are listening to this have access to the book&nbsp;
+so it might be well worth your while going to the&nbsp;&nbsp;
+
+00:06:09.280 --> 00:06:14.240
+book and reading the few pages that i'm going&nbsp;
+to gloss over here i'm just going to skip over&nbsp;&nbsp;
+
+00:06:15.120 --> 00:06:20.640
+because it's about the technical details of how&nbsp;
+one might go about in the distant future in a&nbsp;&nbsp;
+
+00:06:20.640 --> 00:06:27.040
+technologically enlightened future where we could&nbsp;
+directly intercept the contents of neurons let's&nbsp;&nbsp;
+
+00:06:27.040 --> 00:06:34.080
+say and so give you the experience of whatever is&nbsp;
+physically possible to experience via that method&nbsp;&nbsp;
+
+00:06:34.080 --> 00:06:40.480
+of directly intervening in the neurons the action&nbsp;
+of the neurons we don't need to go into that&nbsp;&nbsp;
+
+00:06:40.480 --> 00:06:46.320
+please explore this part of the chapter and no&nbsp;
+doubt the the vast majority of people listening&nbsp;&nbsp;
+
+00:06:46.320 --> 00:06:50.400
+to this have the book if you don't get the book&nbsp;
+and read the details because they are interesting&nbsp;&nbsp;
+
+00:06:51.120 --> 00:06:54.960
+but basically look the idea is that with&nbsp;
+you know an advanced neuroscience with a&nbsp;&nbsp;
+
+00:06:54.960 --> 00:07:00.960
+cybernetic implant it's going to be possible&nbsp;
+to tinker with neurons and hence subjective&nbsp;&nbsp;
+
+00:07:00.960 --> 00:07:06.240
+experience given the requisite knowledge&nbsp;
+knowing how to do that the laws of physics&nbsp;&nbsp;
+
+00:07:06.240 --> 00:07:11.680
+do not prohibit this from happening so it must&nbsp;
+be possible given the right knowledge so i'm&nbsp;&nbsp;
+
+00:07:11.680 --> 00:07:17.600
+skipping those details interesting though&nbsp;
+they are i'm um glossing over them because&nbsp;&nbsp;
+
+00:07:17.600 --> 00:07:24.320
+the sum of everything david says is basically&nbsp;
+encapsulated by what he goes on to say quote&nbsp;&nbsp;
+
+00:07:25.200 --> 00:07:30.640
+for our present purposes technological obstacles&nbsp;
+are irrelevant we are not investigating what sorts&nbsp;&nbsp;
+
+00:07:30.640 --> 00:07:35.760
+of virtual reality generator can be built or&nbsp;
+even necessarily what sorts of virtual reality&nbsp;&nbsp;
+
+00:07:35.760 --> 00:07:41.920
+generator will ever be built by human engineers&nbsp;
+we are investigating what the laws of physics do&nbsp;&nbsp;
+
+00:07:41.920 --> 00:07:46.720
+and do not allow in the way of virtual reality&nbsp;
+the reason why this is important has nothing to&nbsp;&nbsp;
+
+00:07:46.720 --> 00:07:52.000
+do with the prospects for making better virtual&nbsp;
+reality generators it is that the relationship&nbsp;&nbsp;
+
+00:07:52.000 --> 00:07:59.200
+between virtual reality and ordinary reality is&nbsp;
+part of the deep unexpected structure of the world&nbsp;&nbsp;
+
+00:07:59.200 --> 00:08:04.800
+which this book is about end quote that's why&nbsp;
+i begin this episode in the way that i did&nbsp;&nbsp;
+
+00:08:05.520 --> 00:08:12.240
+it's not an esoteric quirky sort of bit of&nbsp;
+technology this virtual reality stuff it provides&nbsp;&nbsp;
+
+00:08:12.240 --> 00:08:17.440
+an insight into how it is that knowledge can&nbsp;
+be constructed about the world and what our&nbsp;&nbsp;
+
+00:08:17.440 --> 00:08:22.960
+situation is what our relationship is with the&nbsp;
+rest of physical reality david goes on quote&nbsp;&nbsp;
+
+00:08:23.840 --> 00:08:28.080
+by considering various tricks nerve stimulation&nbsp;
+stopping and starting the brain and so on&nbsp;&nbsp;
+
+00:08:28.800 --> 00:08:33.040
+we have managed to envisage a physically possible&nbsp;
+virtual reality generator whose repertoire covers&nbsp;&nbsp;
+
+00:08:33.040 --> 00:08:37.840
+the entire sensory range is fully interactive&nbsp;
+and is not constrained by the speed or memory&nbsp;&nbsp;
+
+00:08:37.840 --> 00:08:43.840
+capacity of its computer is there anything&nbsp;
+outside the repertoire of such a virtual reality&nbsp;&nbsp;
+
+00:08:43.840 --> 00:08:50.080
+generator would its repertoire be the set of&nbsp;
+all logically possible environments it would not&nbsp;&nbsp;
+
+00:08:51.040 --> 00:08:55.920
+even this futuristic machine's repertoire is&nbsp;
+drastically circumscribed by the mere fact&nbsp;&nbsp;
+
+00:08:55.920 --> 00:09:02.080
+of its being a physical object it does not even&nbsp;
+scratch the surface of what is logically possible&nbsp;&nbsp;
+
+00:09:02.080 --> 00:09:08.480
+as i shall now show pausing there my&nbsp;
+reflection what he's going to show&nbsp;&nbsp;
+
+00:09:09.040 --> 00:09:13.440
+and what he's about to launch into is the diagonal&nbsp;
+argument which if you are a long time listener to&nbsp;&nbsp;
+
+00:09:13.440 --> 00:09:16.960
+talk cast you will have encountered before&nbsp;
+the beginning of infinity also goes through&nbsp;&nbsp;
+
+00:09:17.520 --> 00:09:23.600
+explanations of diagonal arguments this is&nbsp;
+a really interesting one a way of showing&nbsp;&nbsp;
+
+00:09:23.600 --> 00:09:32.400
+how even a machine which can render all&nbsp;
+environments that can be experienced by a person&nbsp;&nbsp;
+
+00:09:32.400 --> 00:09:36.320
+does not contain in its repertoire all&nbsp;
+logically possible environments there are&nbsp;&nbsp;
+
+00:09:36.320 --> 00:09:39.760
+things it can't do and in fact the things that&nbsp;
+can't do vastly outnumber the things that it can&nbsp;&nbsp;
+
+00:09:39.760 --> 00:09:48.240
+do even though we've begun this whole exercise&nbsp;
+by trying to define into existence the machine&nbsp;&nbsp;
+
+00:09:48.240 --> 00:09:53.520
+that can do anything when it comes to virtual&nbsp;
+reality it can render any environment we're&nbsp;&nbsp;
+
+00:09:53.520 --> 00:09:59.360
+about to see that in fact the attempt to do that&nbsp;
+the attempt to realize that in physical reality&nbsp;&nbsp;
+
+00:10:00.000 --> 00:10:08.880
+is impossible why david explains quote the basic&nbsp;
+idea of the proof known as a diagonal argument&nbsp;&nbsp;
+
+00:10:08.880 --> 00:10:15.040
+predates the idea of virtual reality it was first&nbsp;
+used by the 19th century mathematician georg&nbsp;&nbsp;
+
+00:10:15.040 --> 00:10:20.960
+cantor to prove that there are infinite quantities&nbsp;
+greater than the infinity of natural numbers&nbsp;&nbsp;
+
+00:10:20.960 --> 00:10:26.800
+1 2 3 the integers the same form of proof is at&nbsp;
+the heart of the modern theory of computation&nbsp;&nbsp;
+
+00:10:26.800 --> 00:10:34.720
+developed by alan during and others in the 1930s&nbsp;
+it was also used by kurt gertle in his celebrated&nbsp;&nbsp;
+
+00:10:34.720 --> 00:10:40.240
+incompleteness theorem of which more in chapter&nbsp;
+10. each environment in our machine's repertoire&nbsp;&nbsp;
+
+00:10:40.240 --> 00:10:47.200
+is generated by some program for its computer&nbsp;
+imagine the set of all valid programs for this&nbsp;&nbsp;
+
+00:10:47.200 --> 00:10:53.040
+computer from a physical point of view each such&nbsp;
+program specifies a particular set of values for&nbsp;&nbsp;
+
+00:10:53.040 --> 00:10:59.120
+physical variables on the disks or other media&nbsp;
+that represent the computer's program we know&nbsp;&nbsp;
+
+00:10:59.120 --> 00:11:04.080
+from quantum theory that all such variables are&nbsp;
+quantized and therefore that no matter how the&nbsp;&nbsp;
+
+00:11:04.080 --> 00:11:10.480
+computer works the set of possible programs is&nbsp;
+discrete each program can therefore be expressed&nbsp;&nbsp;
+
+00:11:10.480 --> 00:11:16.720
+as a finite sequence of symbols in a discrete code&nbsp;
+or computer language there are infinitely many&nbsp;&nbsp;
+
+00:11:16.720 --> 00:11:22.800
+such programs but each one can contain only&nbsp;
+a finite number of symbols that is because&nbsp;&nbsp;
+
+00:11:22.800 --> 00:11:27.360
+symbols are physical objects made of matter in&nbsp;
+recognizable configurations and one could not&nbsp;&nbsp;
+
+00:11:27.360 --> 00:11:32.960
+manufacture an infinite number of them as i shall&nbsp;
+explain in chapter 10 these intuitively obvious&nbsp;&nbsp;
+
+00:11:32.960 --> 00:11:36.800
+physical requirements that the programs must be&nbsp;
+quantized and that each of them must consist of&nbsp;&nbsp;
+
+00:11:36.800 --> 00:11:42.560
+a finite number of symbols and can be executed in&nbsp;
+a sequence of steps a more substantive than they&nbsp;&nbsp;
+
+00:11:42.560 --> 00:11:47.840
+seem they are the only consequences of the laws&nbsp;
+of physics that are needed as input for the proof&nbsp;&nbsp;
+
+00:11:47.840 --> 00:11:52.960
+though they are enough to impose drastic&nbsp;
+restrictions on the repertoire of any&nbsp;&nbsp;
+
+00:11:52.960 --> 00:11:58.240
+physically possible machine other physical laws&nbsp;
+may impose even more restrictions but they would&nbsp;&nbsp;
+
+00:11:58.240 --> 00:12:04.640
+not affect the conclusions of this chapter end&nbsp;
+quote okay so what we've got here is the setup of&nbsp;&nbsp;
+
+00:12:05.920 --> 00:12:11.360
+the concept that we have this computer and the&nbsp;
+computer can run an infinite number of different&nbsp;&nbsp;
+
+00:12:11.360 --> 00:12:17.200
+programs but it has a repertoire which means the&nbsp;
+set of all programs and the set can be infinite of&nbsp;&nbsp;
+
+00:12:17.200 --> 00:12:22.480
+course you can have infinite sets the lists that&nbsp;
+are infinitely long okay there's no end to them so&nbsp;&nbsp;
+
+00:12:22.480 --> 00:12:27.200
+there's no end to the number of programs in this&nbsp;
+set it's infinite now some people have a lot of&nbsp;&nbsp;
+
+00:12:28.320 --> 00:12:33.040
+difficulty with this concept that if something&nbsp;
+is infinite it might not necessarily contain&nbsp;&nbsp;
+
+00:12:33.040 --> 00:12:38.000
+everything logically possible but a simple way&nbsp;
+of understanding this is you just think of the&nbsp;&nbsp;
+
+00:12:39.040 --> 00:12:45.440
+you know the set of all positive numbers 0 1 2 3&nbsp;
+4 5 off into infinity it clearly doesn't contain&nbsp;&nbsp;
+
+00:12:45.440 --> 00:12:50.160
+all the numbers okay specifically if you were to&nbsp;
+say well it's only the integers well it doesn't&nbsp;&nbsp;
+
+00:12:50.160 --> 00:12:54.240
+contain a half a third and so on and so forth and&nbsp;
+it doesn't contain the negative numbers okay so&nbsp;&nbsp;
+
+00:12:54.240 --> 00:12:57.920
+there are things that aren't in that set there&nbsp;
+are numbers not in that set even though it's got&nbsp;&nbsp;
+
+00:12:57.920 --> 00:13:03.760
+an infinite number of numbers similarly we're&nbsp;
+going to get to here this idea that although&nbsp;&nbsp;
+
+00:13:03.760 --> 00:13:09.040
+there's an infinite number of different logically&nbsp;
+possible of possible environments that this that&nbsp;&nbsp;
+
+00:13:09.040 --> 00:13:15.360
+can be rendered by this computer uh as a&nbsp;
+virtual reality generator it won't contain&nbsp;&nbsp;
+
+00:13:15.360 --> 00:13:20.080
+everything that's that is logically possible it&nbsp;
+won't contain everything that's logically possible&nbsp;&nbsp;
+
+00:13:20.720 --> 00:13:27.120
+so that's the setup david goes on to say quote&nbsp;
+now let us imagine this infinite set of possible&nbsp;&nbsp;
+
+00:13:27.120 --> 00:13:32.960
+programs arranged in an infinitely long list&nbsp;
+and numbered program one program two and so on&nbsp;&nbsp;
+
+00:13:32.960 --> 00:13:38.080
+they could for instance be arranged in&nbsp;
+alphabetical order with respect to the symbols&nbsp;&nbsp;
+
+00:13:38.080 --> 00:13:43.760
+in which they are expressed because each program&nbsp;
+generates an environment this list can also be&nbsp;&nbsp;
+
+00:13:43.760 --> 00:13:48.320
+regarded as a list of all the environments&nbsp;
+in the machine's repertoire we may call them&nbsp;&nbsp;
+
+00:13:48.320 --> 00:13:52.800
+environment one environment two and so on it could&nbsp;
+be that some of the environments are repeated&nbsp;&nbsp;
+
+00:13:52.800 --> 00:13:57.520
+in the list because two different programs&nbsp;
+might in effect perform the same calculations&nbsp;&nbsp;
+
+00:13:57.520 --> 00:14:01.680
+but that will not affect the argument what&nbsp;
+is important is that each environment in our&nbsp;&nbsp;
+
+00:14:01.680 --> 00:14:07.280
+machine's repertoire should appear at least once&nbsp;
+in the list david makes a few more remarks that&nbsp;&nbsp;
+
+00:14:07.280 --> 00:14:15.280
+i'm going to again skip over and pick it up where&nbsp;
+he says quote let me define a class of logically&nbsp;&nbsp;
+
+00:14:15.280 --> 00:14:23.760
+possible environments which i shall call can't&nbsp;
+go to environments that's spelt c-a-n-t g-o-t-u&nbsp;&nbsp;
+
+00:14:24.480 --> 00:14:32.080
+can't go to environments partly in honor of cantor&nbsp;
+girdle and turing and partly for a reason i shall&nbsp;&nbsp;
+
+00:14:32.080 --> 00:14:38.160
+explain shortly end quote very clever clever&nbsp;
+little name there can't go to environments and&nbsp;&nbsp;
+
+00:14:38.160 --> 00:14:45.920
+then and due to cantor girdle and turing let's&nbsp;
+keep going quote they are defined as follows&nbsp;&nbsp;
+
+00:14:45.920 --> 00:14:50.720
+for the first subjective minute a can't&nbsp;
+go to environment behaves differently from&nbsp;&nbsp;
+
+00:14:50.720 --> 00:14:56.320
+environment one generated by program one of our&nbsp;
+generator it does not matter how it does behave so&nbsp;&nbsp;
+
+00:14:56.320 --> 00:15:01.520
+long as it is to the user recognizably different&nbsp;
+from environment one during the second minute it&nbsp;&nbsp;
+
+00:15:01.520 --> 00:15:06.640
+behaves differently from environment two though it&nbsp;
+is now allowed to resemble environment one again&nbsp;&nbsp;
+
+00:15:07.200 --> 00:15:10.240
+during the third minute it behaves&nbsp;
+differently from environment three&nbsp;&nbsp;
+
+00:15:10.240 --> 00:15:16.400
+and so on any environment that satisfies these&nbsp;
+rules i shall call i can't go to environment&nbsp;&nbsp;
+
+00:15:17.120 --> 00:15:21.120
+now since a can't go to environment does&nbsp;
+not behave exactly like environment one&nbsp;&nbsp;
+
+00:15:21.120 --> 00:15:27.600
+it cannot be environment one since it does not&nbsp;
+behave exactly like environment 2 it cannot be&nbsp;&nbsp;
+
+00:15:27.600 --> 00:15:32.640
+environment 2. since it is guaranteed sooner or&nbsp;
+later to behave differently from environment 3&nbsp;&nbsp;
+
+00:15:32.640 --> 00:15:38.080
+environment 4 and every other environment on the&nbsp;
+list it cannot be any of those either but that&nbsp;&nbsp;
+
+00:15:38.080 --> 00:15:43.840
+list contains all the environments that are&nbsp;
+generated by every possible program for this&nbsp;&nbsp;
+
+00:15:43.840 --> 00:15:49.840
+machine it follows that none of the can't go to&nbsp;
+environments are in the machine's repertoire but&nbsp;&nbsp;
+
+00:15:49.840 --> 00:15:55.280
+can't go to environments our environments that we&nbsp;
+can't go to using this virtual reality generator&nbsp;&nbsp;
+
+00:15:56.080 --> 00:16:01.920
+end quote pausing there that's the diagonal&nbsp;
+lag that's a kind of diagonal argument&nbsp;&nbsp;
+
+00:16:03.360 --> 00:16:08.080
+it illustrates a couple of things that this&nbsp;
+infinitely long list that can of programs&nbsp;&nbsp;
+
+00:16:08.080 --> 00:16:13.120
+that can render any environment at all all the&nbsp;
+environments that are possible limited only by the&nbsp;&nbsp;
+
+00:16:13.760 --> 00:16:20.000
+memory capacity of the computer let's say you've&nbsp;
+got environment one that it can render maybe it&nbsp;&nbsp;
+
+00:16:20.000 --> 00:16:26.080
+looks like earth it is as it is today environment&nbsp;
+too maybe it is earth as it was yesterday&nbsp;&nbsp;
+
+00:16:26.080 --> 00:16:30.960
+and repeat for all the days in the past and then&nbsp;
+for environments on mars and so on and so forth&nbsp;&nbsp;
+
+00:16:31.760 --> 00:16:39.200
+this infinitely long list of environments&nbsp;
+that the computer can generate based upon&nbsp;&nbsp;
+
+00:16:39.200 --> 00:16:45.520
+programs in the computer but the ones that it&nbsp;
+can't render are infinitely greater in number&nbsp;&nbsp;
+
+00:16:45.520 --> 00:16:51.840
+there's many many more after all environment one&nbsp;
+is one such environment that can be rendered now&nbsp;&nbsp;
+
+00:16:51.840 --> 00:16:58.000
+all that we require is that our our our can&nbsp;
+our first can't go to environment differs from&nbsp;&nbsp;
+
+00:16:58.000 --> 00:17:01.440
+environment one in any way shape or form but&nbsp;
+there's an infinite number of ways in which it&nbsp;&nbsp;
+
+00:17:01.440 --> 00:17:06.240
+could differ from environment one so already we've&nbsp;
+got an infinite number of ways it could different&nbsp;&nbsp;
+
+00:17:06.240 --> 00:17:10.000
+there can infinite number of ways it could differ&nbsp;
+from environment two and so on and so forth so&nbsp;&nbsp;
+
+00:17:10.000 --> 00:17:15.280
+the ones that can't be rendered that can't go&nbsp;
+to environments vastly outnumber the the number&nbsp;&nbsp;
+
+00:17:15.280 --> 00:17:19.840
+of environments that can be rendered even though&nbsp;
+the ones that can be rendered are infinite number
+
+00:17:22.000 --> 00:17:28.960
+okay let's keep going david writes quote clearly&nbsp;
+there are enormously many can't go to environments&nbsp;&nbsp;
+
+00:17:28.960 --> 00:17:33.360
+because the definition leaves enormous&nbsp;
+freedom in choosing how they should behave&nbsp;&nbsp;
+
+00:17:33.360 --> 00:17:38.480
+the only constraint being that during each minute&nbsp;
+they should not behave in one particular way&nbsp;&nbsp;
+
+00:17:39.040 --> 00:17:43.840
+it can be proved that for every environment in the&nbsp;
+repertoire of a given virtual reality generator&nbsp;&nbsp;
+
+00:17:43.840 --> 00:17:49.760
+there are infinitely many can't go to environments&nbsp;
+that it cannot render nor is there much scope for&nbsp;&nbsp;
+
+00:17:49.760 --> 00:17:54.560
+extending the repertoire by using a range of&nbsp;
+different virtual reality generators okay now&nbsp;&nbsp;
+
+00:17:55.200 --> 00:17:59.840
+end quote i won't go on and read the explanation&nbsp;
+of that leave that as an exercise to the reader&nbsp;&nbsp;
+
+00:18:00.720 --> 00:18:06.080
+instead i'll pick it up where david writes&nbsp;
+quote thus our hypothetical project of building&nbsp;&nbsp;
+
+00:18:06.080 --> 00:18:10.880
+the ultimate virtual reality generator which&nbsp;
+had been going so well has suddenly run into a&nbsp;&nbsp;
+
+00:18:10.880 --> 00:18:15.360
+brick wall whatever improvements may be made&nbsp;
+in the distant future the repertoire of the&nbsp;&nbsp;
+
+00:18:15.360 --> 00:18:21.120
+entire technology of virtual reality will never&nbsp;
+grow beyond a certain fixed set of environments&nbsp;&nbsp;
+
+00:18:21.680 --> 00:18:28.560
+admittedly this set is infinitely large and very&nbsp;
+diverse by comparison with human experience prior&nbsp;&nbsp;
+
+00:18:28.560 --> 00:18:35.840
+to virtual reality technology nevertheless it is&nbsp;
+only an infinitesimal fraction of the set of all&nbsp;&nbsp;
+
+00:18:35.840 --> 00:18:41.280
+logically possible environments what would it&nbsp;
+feel like to be in a can't go to environment&nbsp;&nbsp;
+
+00:18:41.280 --> 00:18:45.120
+although the laws of physics do not permit us&nbsp;
+to be in one it is still logically possible&nbsp;&nbsp;
+
+00:18:45.120 --> 00:18:50.320
+and so it is legitimate to ask what it would feel&nbsp;
+like certainly it could give us no new sensations&nbsp;&nbsp;
+
+00:18:50.320 --> 00:18:55.280
+because a universal image generator is possible&nbsp;
+and is assumed to be part of our high technology&nbsp;&nbsp;
+
+00:18:55.280 --> 00:19:00.640
+virtual reality generator so a can't go to&nbsp;
+environment would seem mysterious to us only after&nbsp;&nbsp;
+
+00:19:00.640 --> 00:19:05.840
+we had experienced it and reflected on the results&nbsp;
+it would go something like this suppose you are a&nbsp;&nbsp;
+
+00:19:05.840 --> 00:19:11.280
+virtual reality buff in the distant ultra high&nbsp;
+technology future you have become jaded for it&nbsp;&nbsp;
+
+00:19:11.280 --> 00:19:16.240
+seems to you that you've already tried everything&nbsp;
+interesting but then one day a genie appears and&nbsp;&nbsp;
+
+00:19:16.240 --> 00:19:21.920
+claims to be able to transport you to a can't go&nbsp;
+to environment you are skeptical but you agree to&nbsp;&nbsp;
+
+00:19:21.920 --> 00:19:27.040
+put the claim to the test you are whisked away to&nbsp;
+the environment after a few experiments you seem&nbsp;&nbsp;
+
+00:19:27.040 --> 00:19:32.320
+to recognize it it responds just like one of your&nbsp;
+favorite environments which on your home virtual&nbsp;&nbsp;
+
+00:19:32.320 --> 00:19:38.160
+reality system has program number x however you&nbsp;
+keep experimenting and eventually during the&nbsp;&nbsp;
+
+00:19:38.160 --> 00:19:44.400
+x subjective minute of the experience the&nbsp;
+environment responds in a way that is markedly&nbsp;&nbsp;
+
+00:19:44.400 --> 00:19:49.840
+different from anything that environment x&nbsp;
+would do so you give up the idea that this is&nbsp;&nbsp;
+
+00:19:49.840 --> 00:19:54.560
+environment x you may then notice that everything&nbsp;
+that has happened so far is also consistent with&nbsp;&nbsp;
+
+00:19:54.560 --> 00:19:59.680
+another renderable environment environment y&nbsp;
+but then during the y subjective minutes you&nbsp;&nbsp;
+
+00:19:59.680 --> 00:20:04.480
+are proved wrong again the characteristic of a&nbsp;
+can go to environment is simply this no matter&nbsp;&nbsp;
+
+00:20:04.480 --> 00:20:09.440
+how often you guess no matter how complex a&nbsp;
+program you contemplate as being the one that&nbsp;&nbsp;
+
+00:20:09.440 --> 00:20:14.800
+might be rendering the environment you will always&nbsp;
+be proved wrong because no program will render it&nbsp;&nbsp;
+
+00:20:14.800 --> 00:20:20.640
+on your virtual reality generator or on any other&nbsp;
+sooner or later you will have to bring the test&nbsp;&nbsp;
+
+00:20:20.640 --> 00:20:26.480
+to a close at that point you may well decide to&nbsp;
+concede the genie's claim that is not to say that&nbsp;&nbsp;
+
+00:20:26.480 --> 00:20:32.560
+you could ever prove that you had been in a can't&nbsp;
+go to environment for there is always an even more&nbsp;&nbsp;
+
+00:20:32.560 --> 00:20:38.080
+complex program that the genie might have been&nbsp;
+running which would match your experiences so far&nbsp;&nbsp;
+
+00:20:38.640 --> 00:20:43.040
+that is just the general feature of&nbsp;
+virtual reality that i've already discussed&nbsp;&nbsp;
+
+00:20:43.040 --> 00:20:49.920
+namely that experience cannot prove that one is&nbsp;
+in a given environment be it the centre court&nbsp;&nbsp;
+
+00:20:49.920 --> 00:20:57.440
+at wimbledon or an environment of the can't go to&nbsp;
+type end quote so that that uh that harks back to&nbsp;&nbsp;
+
+00:20:57.440 --> 00:21:02.080
+the previous chapter talking about not knowing&nbsp;
+that you are fight not being able to confirm&nbsp;&nbsp;
+
+00:21:02.080 --> 00:21:08.720
+that you are on an actual rendering of the real&nbsp;
+wimbledon which is to say you can't confirm&nbsp;&nbsp;
+
+00:21:08.720 --> 00:21:16.880
+you can only ever disconfirm logically speaking&nbsp;
+moving on david writes quote anyway there are&nbsp;&nbsp;
+
+00:21:16.880 --> 00:21:22.080
+no such genies and no such environments so we&nbsp;
+must conclude that physics does not allow the&nbsp;&nbsp;
+
+00:21:22.080 --> 00:21:27.600
+repertoire of a virtual reality generator to be&nbsp;
+anywhere near as large as logic alone would allow&nbsp;&nbsp;
+
+00:21:28.160 --> 00:21:32.720
+how large can it be since we cannot hope to&nbsp;
+render all logically possible environments let us&nbsp;&nbsp;
+
+00:21:32.720 --> 00:21:39.840
+consider a weaker but ultimately more interesting&nbsp;
+sort of universality let us define a universal&nbsp;&nbsp;
+
+00:21:39.840 --> 00:21:46.320
+virtual reality generator as one whose repertoire&nbsp;
+contains that of every other physically possible&nbsp;&nbsp;
+
+00:21:46.320 --> 00:21:53.120
+virtual reality generator can such a machine exist&nbsp;
+it can thinking about futuristic devices based on&nbsp;&nbsp;
+
+00:21:53.120 --> 00:22:00.240
+computer controlled nerve stimulation makes this&nbsp;
+obvious in fact almost too obvious such a machine&nbsp;&nbsp;
+
+00:22:00.240 --> 00:22:05.200
+could be programmed to have the characteristics&nbsp;
+of any rival machine it could calculate how that&nbsp;&nbsp;
+
+00:22:05.200 --> 00:22:10.720
+machine would respond under any given program to&nbsp;
+any behavior by the user and so could render those&nbsp;&nbsp;
+
+00:22:10.720 --> 00:22:17.200
+responses with perfect accuracy from the point of&nbsp;
+view of a given user any given user pausing near&nbsp;&nbsp;
+
+00:22:17.200 --> 00:22:23.120
+my reflection just perfect accuracy there remember&nbsp;
+that was defined in the previous chapter and it's&nbsp;&nbsp;
+
+00:22:23.120 --> 00:22:27.440
+basically where the user themselves is unable to&nbsp;
+distinguish and if you're unable to distinguish&nbsp;&nbsp;
+
+00:22:28.320 --> 00:22:35.360
+you know x from y then to you to the&nbsp;
+perfect degree of accuracy x is equal to y&nbsp;&nbsp;
+
+00:22:36.000 --> 00:22:40.480
+all right that's all it's just the subjective&nbsp;
+perfect accuracy it's not perfect accuracy in&nbsp;&nbsp;
+
+00:22:40.480 --> 00:22:46.400
+real life in sort of on an objective sense&nbsp;
+which doesn't exist let's keep going quote&nbsp;&nbsp;
+
+00:22:47.280 --> 00:22:51.280
+i say this is almost too obvious because it&nbsp;
+contains an important assumption about what the&nbsp;&nbsp;
+
+00:22:51.280 --> 00:22:56.320
+proposed device or more specifically its computer&nbsp;
+could be programmed to do given the appropriate&nbsp;&nbsp;
+
+00:22:56.320 --> 00:23:01.680
+program and enough time and storage media it&nbsp;
+could calculate the output of any computation&nbsp;&nbsp;
+
+00:23:01.680 --> 00:23:07.520
+performed by any other computer including the&nbsp;
+one in the rival virtual reality generator thus&nbsp;&nbsp;
+
+00:23:07.520 --> 00:23:13.680
+the feasibility of a universal virtual reality&nbsp;
+generator depends on the existence of a universal&nbsp;&nbsp;
+
+00:23:13.680 --> 00:23:20.720
+computer a single machine that can calculate&nbsp;
+anything that can be calculated as i have said&nbsp;&nbsp;
+
+00:23:21.600 --> 00:23:27.680
+this sort of universality was first studied not by&nbsp;
+physicists but by mathematicians they were trying&nbsp;&nbsp;
+
+00:23:27.680 --> 00:23:34.640
+to make precise the intuitive notion of computing&nbsp;
+or calculating or proving something in mathematics&nbsp;&nbsp;
+
+00:23:34.640 --> 00:23:39.680
+they did not take on board the fact that&nbsp;
+mathematical calculation is a physical process&nbsp;&nbsp;
+
+00:23:39.680 --> 00:23:46.080
+in particular as i've explained it is a virtual&nbsp;
+reality rendering process so it is impossible to&nbsp;&nbsp;
+
+00:23:46.080 --> 00:23:51.680
+determine by mathematical reasoning what can or&nbsp;
+cannot be calculated mathematically that depends&nbsp;&nbsp;
+
+00:23:51.680 --> 00:23:58.080
+entirely on the laws of physics but instead of&nbsp;
+trying to deduce their results from physical laws&nbsp;&nbsp;
+
+00:23:58.080 --> 00:24:05.520
+mathematicians postulated abstract models of&nbsp;
+computation and defined calculation and proof&nbsp;&nbsp;
+
+00:24:06.240 --> 00:24:12.000
+in terms of those models i shall discuss this&nbsp;
+interesting mistake in chapter 10. that is how it&nbsp;&nbsp;
+
+00:24:12.000 --> 00:24:20.240
+came about that over a period of a few months in&nbsp;
+1936 three mathematicians emel post alonso church&nbsp;&nbsp;
+
+00:24:20.240 --> 00:24:25.520
+and most importantly alan turing independently&nbsp;
+created the first abstract designs for universal&nbsp;&nbsp;
+
+00:24:25.520 --> 00:24:30.320
+computers just pausing down my reflection i&nbsp;
+might just go back um and just to mention that&nbsp;&nbsp;
+
+00:24:30.320 --> 00:24:39.280
+this argument here this explanation about the fact&nbsp;
+that mathematics consists of well explanations but&nbsp;&nbsp;
+
+00:24:39.280 --> 00:24:50.160
+it it it requires calculations it it uses proofs&nbsp;
+and computations and these things are completed by&nbsp;&nbsp;
+
+00:24:51.040 --> 00:24:57.840
+physical systems whether the mathematician&nbsp;
+themselves or computers and pocket calculators and&nbsp;&nbsp;
+
+00:24:57.840 --> 00:25:04.960
+that kind of thing so abound necessarily by the&nbsp;
+laws of physics so what is able to be proved is&nbsp;&nbsp;
+
+00:25:06.000 --> 00:25:16.320
+limited by the set of things that the laws of&nbsp;
+physics say is provable because you're building&nbsp;&nbsp;
+
+00:25:16.320 --> 00:25:22.160
+computers out of matter the matter obeys laws&nbsp;
+of physics and those laws of physics only allow&nbsp;&nbsp;
+
+00:25:22.160 --> 00:25:27.680
+certain kinds of things to be proved the laws of&nbsp;
+physics bound what can be mathematically proved&nbsp;&nbsp;
+
+00:25:27.680 --> 00:25:33.200
+okay so many mathematicians don't like that that&nbsp;
+doesn't matter doesn't affect the fact that it's&nbsp;&nbsp;
+
+00:25:33.200 --> 00:25:38.720
+true many people don't like that they think that&nbsp;
+somehow mathematics has to be prior to physics&nbsp;&nbsp;
+
+00:25:38.720 --> 00:25:47.520
+in some sense now all that said the precisely&nbsp;
+the same argument applies even more broadly&nbsp;&nbsp;
+
+00:25:47.520 --> 00:25:54.320
+to reasoning in general reasoning in general&nbsp;
+you can't get outside of the laws of physics&nbsp;&nbsp;
+
+00:25:55.360 --> 00:26:02.960
+what can be known is bounded by the laws&nbsp;
+of physics and so philosophy epistemology&nbsp;&nbsp;
+
+00:26:03.760 --> 00:26:13.440
+reasoning itself is done by physical things human&nbsp;
+beings brains minds and they obey laws of physics&nbsp;&nbsp;
+
+00:26:14.400 --> 00:26:18.880
+so it is the laws of physics that&nbsp;
+constrain the possibility of what we can&nbsp;&nbsp;
+
+00:26:19.680 --> 00:26:26.640
+think what we can know what we can reason this&nbsp;
+is not a problem as such but it's just worth&nbsp;&nbsp;
+
+00:26:27.440 --> 00:26:35.600
+keeping in view and understanding it does&nbsp;
+come to bear on our capacity to know but&nbsp;&nbsp;
+
+00:26:35.600 --> 00:26:41.360
+it doesn't come on our it doesn't come to bear&nbsp;
+on our capacity to solve problems that we're&nbsp;&nbsp;
+
+00:26:41.360 --> 00:26:47.840
+interested in in particular it's the very thing&nbsp;
+that allows us to know that problems are soluble&nbsp;&nbsp;
+
+00:26:47.840 --> 00:26:52.480
+problems are soluble precisely because&nbsp;
+well the physical structure of our brain&nbsp;&nbsp;
+
+00:26:54.080 --> 00:27:00.320
+what it's able to do uniquely is generate&nbsp;
+explanations which can be in one-to-one&nbsp;&nbsp;
+
+00:27:00.320 --> 00:27:08.480
+correspondence with the rest of physical reality&nbsp;
+that's what the laws of physics allow they provide&nbsp;&nbsp;
+
+00:27:08.480 --> 00:27:12.960
+provide the laws of provide constraints but&nbsp;
+allow for that and therefore allow for the&nbsp;&nbsp;
+
+00:27:12.960 --> 00:27:19.520
+solving in principle of any possible problem we&nbsp;
+could encounter problems are soluble and david's&nbsp;&nbsp;
+
+00:27:19.520 --> 00:27:26.400
+going to get to that essentially get to that&nbsp;
+in this chapter but i i think one reason i'm&nbsp;&nbsp;
+
+00:27:26.400 --> 00:27:33.840
+also saying that is that that philosophers who are&nbsp;
+sometimes disconnected to some extent from physics&nbsp;&nbsp;
+
+00:27:35.280 --> 00:27:39.920
+failed to take this into account and&nbsp;
+think that the physics can be irrelevant&nbsp;&nbsp;
+
+00:27:39.920 --> 00:27:45.600
+to what they're doing but it's not not utterly&nbsp;
+irrelevant it's not to say that everything reduces&nbsp;&nbsp;
+
+00:27:45.600 --> 00:27:50.480
+to physics i'm not being reductionist in this&nbsp;
+sense or that that the philosopher needs to refer&nbsp;&nbsp;
+
+00:27:51.760 --> 00:27:58.240
+to what's going on in physics now and again but&nbsp;
+the reasoning itself it has to be understood is&nbsp;&nbsp;
+
+00:27:58.240 --> 00:28:04.960
+itself bounded by what the laws of physics permit&nbsp;
+us to reason about and and you know so if you if&nbsp;&nbsp;
+
+00:28:04.960 --> 00:28:11.360
+you're trying to you know uh the common the common&nbsp;
+area here that really i guess i'm i'm circling is&nbsp;&nbsp;
+
+00:28:12.240 --> 00:28:19.280
+um the prophecy the philosophers epistemologists&nbsp;
+others who don't take this on board fully&nbsp;&nbsp;
+
+00:28:20.160 --> 00:28:23.920
+think that there must be a mechanism whether by&nbsp;
+induction or something else that allows them to&nbsp;&nbsp;
+
+00:28:23.920 --> 00:28:29.600
+forecast the future perfectly accurately but that&nbsp;
+is in contravention to laws or physics it's that&nbsp;&nbsp;
+
+00:28:29.600 --> 00:28:36.480
+kind of thing that importantly is constrained by&nbsp;
+laws of physics laws of physics set a bound on&nbsp;&nbsp;
+
+00:28:37.360 --> 00:28:42.880
+what is knowable and one thing that's not knowable&nbsp;
+is the creation of knowledge knowledge creation&nbsp;&nbsp;
+
+00:28:43.440 --> 00:28:47.840
+the future cannot be known with perfect fidelity&nbsp;
+also because of laws of physics as well as the&nbsp;&nbsp;
+
+00:28:47.840 --> 00:28:54.960
+fact that uh people create explanatory knowledge&nbsp;
+which um changes the future in ways that cannot be&nbsp;&nbsp;
+
+00:28:54.960 --> 00:29:01.040
+known ahead of time okay that's a major theme&nbsp;
+of beginning affinity a theme throughout top&nbsp;&nbsp;
+
+00:29:01.040 --> 00:29:07.600
+cast as well so i'll just point to earlier&nbsp;
+work on that kind of stuff rather than um&nbsp;&nbsp;
+
+00:29:07.600 --> 00:29:13.040
+uh going down the road of making that argument&nbsp;
+again but just to say that a knowledge of this&nbsp;&nbsp;
+
+00:29:13.040 --> 00:29:17.200
+kind of physics can help with the philosopher&nbsp;
+and the epistemologist or people who are&nbsp;&nbsp;
+
+00:29:17.200 --> 00:29:22.400
+interested in knowledge rather than being utterly&nbsp;
+disconnected from things and i think that where&nbsp;&nbsp;
+
+00:29:24.160 --> 00:29:29.120
+where some philosophers go wrong especially when&nbsp;
+they fall into pessimism it can be because of this&nbsp;&nbsp;
+
+00:29:29.120 --> 00:29:34.880
+okay back to the book we're talking about how&nbsp;
+emerald post alonso church and alan turing most&nbsp;&nbsp;
+
+00:29:34.880 --> 00:29:40.480
+importantly created the first abstract designs&nbsp;
+for universal computers okay so abstract designs&nbsp;&nbsp;
+
+00:29:40.480 --> 00:29:46.640
+important to know not a physical design&nbsp;
+abstract mathematical theory of the computer&nbsp;&nbsp;
+
+00:29:46.640 --> 00:29:51.600
+without being concerned about the physical&nbsp;
+laws that actually control these things&nbsp;&nbsp;
+
+00:29:51.600 --> 00:29:57.520
+david writes on this each of them conjectured&nbsp;
+that his model of computation did indeed correctly&nbsp;&nbsp;
+
+00:29:57.520 --> 00:30:02.800
+formalize the traditional intuitive notion of&nbsp;
+mathematical computation consequently each of them&nbsp;&nbsp;
+
+00:30:02.800 --> 00:30:08.240
+also conjectured that his model was equivalent to&nbsp;
+had the same repertoire as any other reasonable&nbsp;&nbsp;
+
+00:30:08.240 --> 00:30:15.280
+formalization of the same intuition this is now&nbsp;
+known as the church turing conjecture turing's&nbsp;&nbsp;
+
+00:30:15.280 --> 00:30:19.200
+model of computation and his conception of&nbsp;
+the nature of the problem he was solving&nbsp;&nbsp;
+
+00:30:19.760 --> 00:30:26.320
+was the closest to being physical his abstract&nbsp;
+computer the turing machine was abstracted from&nbsp;&nbsp;
+
+00:30:26.320 --> 00:30:33.440
+the idea of a paper tape divided into squares with&nbsp;
+one of a finite number of easily distinguishable&nbsp;&nbsp;
+
+00:30:33.440 --> 00:30:39.040
+symbols written on each square computation was&nbsp;
+performed by examining one square at a time&nbsp;&nbsp;
+
+00:30:39.040 --> 00:30:44.480
+moving the tape backwards or forwards and erasing&nbsp;
+or writing one of the symbols according to simple&nbsp;&nbsp;
+
+00:30:44.480 --> 00:30:52.560
+unambiguous rules pausing near my reflection this&nbsp;
+is one of the most jarring insights that goes&nbsp;&nbsp;
+
+00:30:53.120 --> 00:31:00.560
+unsaid untaught unlearned i think these days&nbsp;
+unless one takes on pure mathematics course&nbsp;&nbsp;
+
+00:31:00.560 --> 00:31:03.840
+takes an interest in this kind of thing&nbsp;
+goes into computer science whatever&nbsp;&nbsp;
+
+00:31:04.560 --> 00:31:10.320
+that no matter how diverse this technology of&nbsp;
+computers becomes how ubiquitous it becomes&nbsp;&nbsp;
+
+00:31:11.040 --> 00:31:18.160
+that all of it can be modeled okay but modulo&nbsp;
+what david is about to say and the insights that&nbsp;&nbsp;
+
+00:31:18.160 --> 00:31:25.120
+david brings with quantum computation all that&nbsp;
+other stuff but it can be modeled by reduced too&nbsp;&nbsp;
+
+00:31:27.040 --> 00:31:32.240
+the action of reading and infinitely well&nbsp;
+not not infinite but you know a very long&nbsp;&nbsp;
+
+00:31:32.240 --> 00:31:37.840
+tape divided into squares with symbols written on&nbsp;
+it that's what computers do it doesn't matter how&nbsp;&nbsp;
+
+00:31:37.840 --> 00:31:42.560
+complicated the program it could be running a word&nbsp;
+processor it could be simulating the collision of&nbsp;&nbsp;
+
+00:31:42.560 --> 00:31:49.520
+galaxies it could be running a computer game&nbsp;
+it could be you know um facebook or twitter or&nbsp;&nbsp;
+
+00:31:49.520 --> 00:31:53.440
+a flight simulator whatever the program is&nbsp;
+whatever the thing is the computer can do&nbsp;&nbsp;
+
+00:31:54.160 --> 00:32:02.800
+is based upon code a program and that itself&nbsp;
+can be represented as symbols of zeros and ones&nbsp;&nbsp;
+
+00:32:03.440 --> 00:32:10.320
+on a long strip of paper remarkable absolutely&nbsp;
+remarkable and when you get into the details&nbsp;&nbsp;
+
+00:32:10.320 --> 00:32:17.200
+of this that how this in principle could be done&nbsp;
+for any program is is is perhaps jarring to people&nbsp;&nbsp;
+
+00:32:18.240 --> 00:32:25.360
+that a complicated computer program could reduce&nbsp;
+to such a simple thing such a simple idea and this&nbsp;&nbsp;
+
+00:32:25.360 --> 00:32:31.200
+is the first model of computation which predated&nbsp;
+the existence of any actual computer that had been&nbsp;&nbsp;
+
+00:32:31.200 --> 00:32:38.640
+built okay any electronic computer let's keep&nbsp;
+going and david writes quote turing proved that&nbsp;&nbsp;
+
+00:32:38.640 --> 00:32:45.520
+one particular computer of this type the universal&nbsp;
+turing machine had the combined repertoire&nbsp;&nbsp;
+
+00:32:45.520 --> 00:32:50.640
+of all other turing machines he conjectured&nbsp;
+that this repertoire consisted precisely of&nbsp;&nbsp;
+
+00:32:51.200 --> 00:32:57.680
+every function that would naturally be regarded as&nbsp;
+computable he meant computable by mathematicians&nbsp;&nbsp;
+
+00:32:58.400 --> 00:33:04.320
+but mathematicians are rather untypical physical&nbsp;
+objects why should we assume that rendering them&nbsp;&nbsp;
+
+00:33:04.320 --> 00:33:09.920
+in the act of performing calculations is the&nbsp;
+ultimate in computational tasks it turns out that&nbsp;&nbsp;
+
+00:33:09.920 --> 00:33:16.800
+it is not as i shall explain in chapter 9 quantum&nbsp;
+computers can perform computations of which no&nbsp;&nbsp;
+
+00:33:16.800 --> 00:33:24.240
+human mathematician will ever even in principle be&nbsp;
+capable pausing there my reflection now why should&nbsp;&nbsp;
+
+00:33:24.240 --> 00:33:30.640
+there be things that a human mathematician cannot&nbsp;
+even in principle calculate does this violate the&nbsp;&nbsp;
+
+00:33:30.640 --> 00:33:37.120
+universality of the human mind it doesn't why&nbsp;
+well because calculation is not explanation&nbsp;&nbsp;
+
+00:33:37.680 --> 00:33:43.920
+now quantum computers harness something called&nbsp;
+entanglement and interference phenomena i go to&nbsp;&nbsp;
+
+00:33:43.920 --> 00:33:48.960
+top casts that are about the multiverse to go&nbsp;
+into that or to read uh sections of the fabric&nbsp;&nbsp;
+
+00:33:48.960 --> 00:33:54.000
+of reality or or the beginning of infinity&nbsp;
+to understand or have have more insight into&nbsp;&nbsp;
+
+00:33:54.000 --> 00:33:57.600
+entanglement and interference for anyone&nbsp;
+but anyway quantum computers use this&nbsp;&nbsp;
+
+00:33:58.400 --> 00:34:04.800
+but this is not how brains presumably do what&nbsp;
+they do that's not how they do their computations&nbsp;&nbsp;
+
+00:34:04.800 --> 00:34:10.080
+so although a person cannot calculate what a&nbsp;
+quantum computer can you know a person can't&nbsp;&nbsp;
+
+00:34:11.440 --> 00:34:18.400
+quickly do the prime factorization of a 15 digit&nbsp;
+number or calculate the position let's say of&nbsp;&nbsp;
+
+00:34:18.400 --> 00:34:24.800
+electrons in some uranium atom this does not&nbsp;
+prevent us from understanding those things and&nbsp;&nbsp;
+
+00:34:24.800 --> 00:34:30.400
+what is going on there and using technology to&nbsp;
+do it we can still understand that we can still&nbsp;&nbsp;
+
+00:34:30.400 --> 00:34:36.960
+explain those things that that phenomena there is&nbsp;
+a difference between calculation which in physics&nbsp;&nbsp;
+
+00:34:36.960 --> 00:34:43.440
+allows you know some precise prediction and&nbsp;
+understanding the explanation that allows for that&nbsp;&nbsp;
+
+00:34:43.440 --> 00:34:49.360
+prediction to be made we're still universal human&nbsp;
+beings are people people are universal universal&nbsp;&nbsp;
+
+00:34:49.360 --> 00:34:56.160
+explainers not universal calculators indeed i&nbsp;
+don't think there can be a universal calculator&nbsp;&nbsp;
+
+00:34:56.160 --> 00:35:01.840
+after all all we need to do is to just think of&nbsp;
+a number large enough whose prime factorization&nbsp;&nbsp;
+
+00:35:02.400 --> 00:35:06.480
+could never be done even in the multiverse&nbsp;
+no matter how much time you gave it just&nbsp;&nbsp;
+
+00:35:07.440 --> 00:35:11.360
+whatever number that is i don't know 10 to&nbsp;
+the power of 10 to the power of a million&nbsp;&nbsp;
+
+00:35:11.360 --> 00:35:16.000
+to the power of 7 or something i don't know&nbsp;
+there must be some number out there which&nbsp;&nbsp;
+
+00:35:16.000 --> 00:35:21.200
+um it's just so large that the prime factorization&nbsp;
+will just take you know longer than the life of&nbsp;&nbsp;
+
+00:35:21.200 --> 00:35:26.480
+the universe but maybe the universe goes on&nbsp;
+forever maybe if the universe is eternal and&nbsp;&nbsp;
+
+00:35:26.480 --> 00:35:31.280
+this computer lasted forever and had an eternal&nbsp;
+amount and an infinite amount of energy maybe then&nbsp;&nbsp;
+
+00:35:32.560 --> 00:35:38.480
+you could have this universal calculator but put&nbsp;
+aside that there are non-computable functions as&nbsp;&nbsp;
+
+00:35:38.480 --> 00:35:44.320
+as turing and particular girdle prove there are&nbsp;
+these non-computable things anyway okay let's go&nbsp;&nbsp;
+
+00:35:44.320 --> 00:35:50.160
+back to the book quote it is implicit in turing's&nbsp;
+work that he expected what would naturally be&nbsp;&nbsp;
+
+00:35:50.160 --> 00:35:56.160
+regarded as computable to be also what could&nbsp;
+at least in principle be computed in nature&nbsp;&nbsp;
+
+00:35:56.160 --> 00:36:01.760
+this expectation is tantamount to a stronger&nbsp;
+physical version of the church turing conjecture&nbsp;&nbsp;
+
+00:36:01.760 --> 00:36:06.960
+the mathematician roger penrose has suggested&nbsp;
+that it should be called the turing principle the&nbsp;&nbsp;
+
+00:36:06.960 --> 00:36:13.600
+turing principle for abstract computers simulating&nbsp;
+physical objects there exists an abstract&nbsp;&nbsp;
+
+00:36:13.600 --> 00:36:20.320
+universal computer whose repertoire includes any&nbsp;
+computation that any physically possible object&nbsp;&nbsp;
+
+00:36:20.320 --> 00:36:27.040
+can perform so that's the turing principle david&nbsp;
+goes on to say turing believed that the universal&nbsp;&nbsp;
+
+00:36:27.040 --> 00:36:32.560
+computer in question was the universal turing&nbsp;
+machine to take account of the wider repertoire of&nbsp;&nbsp;
+
+00:36:32.560 --> 00:36:38.320
+quantum computers i have stated the principle&nbsp;
+in a form that does not specify which particular&nbsp;&nbsp;
+
+00:36:38.320 --> 00:36:43.760
+abstract computer does the job pausing my&nbsp;
+reflection yes so this is david's addition&nbsp;&nbsp;
+
+00:36:44.400 --> 00:36:51.760
+to turing's work the generalization of of what&nbsp;
+turing started turing's principle david proved&nbsp;&nbsp;
+
+00:36:52.960 --> 00:36:58.480
+uh and which which laid the foundations for&nbsp;
+quantum computation that there is such a&nbsp;&nbsp;
+
+00:36:58.480 --> 00:37:05.680
+physical object that can be constructed that&nbsp;
+is able to do the computations of anything of&nbsp;&nbsp;
+
+00:37:05.680 --> 00:37:11.680
+any any any computable thing can be computed&nbsp;
+by this particular thing and that includes&nbsp;&nbsp;
+
+00:37:11.680 --> 00:37:19.840
+um anything made of matter obeying laws of&nbsp;
+physics is going to be its behavior is going to be&nbsp;&nbsp;
+
+00:37:19.840 --> 00:37:25.360
+computable it goes on to say quote the proof i've&nbsp;
+given of the existence of can't go to environments&nbsp;&nbsp;
+
+00:37:25.360 --> 00:37:30.400
+is essentially due to turing as i said he was not&nbsp;
+thinking explicitly in terms of virtual reality&nbsp;&nbsp;
+
+00:37:30.400 --> 00:37:36.160
+but an environment that can be rendered does&nbsp;
+correspond to a class of mathematical questions&nbsp;&nbsp;
+
+00:37:36.160 --> 00:37:42.480
+whose answers can be calculated those questions&nbsp;
+are computable the remainder the questions for&nbsp;&nbsp;
+
+00:37:42.480 --> 00:37:48.560
+which there is no way of calculating the answer&nbsp;
+are called non-computable if a question is&nbsp;&nbsp;
+
+00:37:48.560 --> 00:37:53.760
+non-computable that does not mean that it has&nbsp;
+no answer or that its answer is in any sense&nbsp;&nbsp;
+
+00:37:53.760 --> 00:37:59.200
+ill-defined or ambiguous on the contrary it means&nbsp;
+that it definitely has an answer it is just that&nbsp;&nbsp;
+
+00:37:59.200 --> 00:38:04.640
+there physically is no way even in principle&nbsp;
+of obtaining that answer or more precisely&nbsp;&nbsp;
+
+00:38:04.640 --> 00:38:10.800
+since one could always make a lucky unverifiable&nbsp;
+guess of proving that is the answer for example&nbsp;&nbsp;
+
+00:38:10.800 --> 00:38:17.280
+a prime pair is a pair of prime numbers whose&nbsp;
+difference is 2 such as 3 and 5 or 11 and 13.&nbsp;&nbsp;
+
+00:38:17.280 --> 00:38:23.120
+mathematicians have tried in vain to answer the&nbsp;
+question whether there are infinitely many such&nbsp;&nbsp;
+
+00:38:23.120 --> 00:38:29.280
+pairs or only a finite number of them it is not&nbsp;
+even known whether this question is computable&nbsp;&nbsp;
+
+00:38:29.280 --> 00:38:35.200
+let us suppose that it is not that is to say that&nbsp;
+no one and no computer can ever produce a proof&nbsp;&nbsp;
+
+00:38:35.200 --> 00:38:42.160
+either that there are only finitely many prime&nbsp;
+pairs or that there are infinitely many even so&nbsp;&nbsp;
+
+00:38:42.160 --> 00:38:46.000
+the question does have an answer one can&nbsp;
+say with certainty that either there is&nbsp;&nbsp;
+
+00:38:46.000 --> 00:38:51.120
+a highest prime pair or there are infinitely&nbsp;
+many prime pairs there's no third possibility&nbsp;&nbsp;
+
+00:38:51.120 --> 00:38:57.840
+the question remains well defined even though we&nbsp;
+may never know the answer in virtual reality terms&nbsp;&nbsp;
+
+00:38:57.840 --> 00:39:03.520
+no physically possible virtual reality generator&nbsp;
+can render an environment in which answers to&nbsp;&nbsp;
+
+00:39:03.520 --> 00:39:09.040
+non-computable questions are provided to the user&nbsp;
+on demand such environments are of the can't go to&nbsp;&nbsp;
+
+00:39:09.040 --> 00:39:15.200
+type and conversely every can't go to environment&nbsp;
+corresponds to a class of mathematical questions&nbsp;&nbsp;
+
+00:39:15.200 --> 00:39:20.080
+what would happen next in an environment defined&nbsp;
+in such in such a way which it is physically&nbsp;&nbsp;
+
+00:39:20.080 --> 00:39:24.800
+possible to answer although non-computable&nbsp;
+questions are infinitely more numerous than&nbsp;&nbsp;
+
+00:39:24.800 --> 00:39:30.160
+computable ones they tend to be more esoteric&nbsp;
+that is no accident it is because the parts of&nbsp;&nbsp;
+
+00:39:30.160 --> 00:39:34.560
+mathematics that we tend to consider the&nbsp;
+least esoteric are those we see reflected&nbsp;&nbsp;
+
+00:39:34.560 --> 00:39:40.800
+in the behavior of physical objects in familiar&nbsp;
+situations in such cases we can often use those&nbsp;&nbsp;
+
+00:39:40.800 --> 00:39:45.440
+physical objects to answer questions about&nbsp;
+the corresponding mathematical relationships&nbsp;&nbsp;
+
+00:39:45.440 --> 00:39:50.400
+for example we can count on our fingers because&nbsp;
+the physics of fingers naturally mimics the&nbsp;&nbsp;
+
+00:39:50.400 --> 00:39:57.120
+arithmetic of the whole numbers from zero to&nbsp;
+ten pausing now my reflection yeah so um pure&nbsp;&nbsp;
+
+00:39:57.120 --> 00:40:04.880
+mathematics doesn't need to concern itself about&nbsp;
+whether it applies to physical stuff they can pure&nbsp;&nbsp;
+
+00:40:04.880 --> 00:40:10.800
+mathematicians can consider pure abstractions okay&nbsp;
+the things that aren't made out of material at all&nbsp;&nbsp;
+
+00:40:10.800 --> 00:40:16.080
+and don't obey the laws of physics even though&nbsp;
+what can be known is constrained by lots of that&nbsp;&nbsp;
+
+00:40:16.080 --> 00:40:22.160
+that's a separate issue quite a separate issue&nbsp;
+the the the constraints placed on mathematics&nbsp;&nbsp;
+
+00:40:22.160 --> 00:40:27.840
+by the laws of physics aren't constraints&nbsp;
+that prevent mathematics from delving into&nbsp;&nbsp;
+
+00:40:27.840 --> 00:40:34.000
+non-physical stuff indeed pure mathematics&nbsp;
+is largely about non-physical stuff there's&nbsp;&nbsp;
+
+00:40:34.000 --> 00:40:40.080
+a great youtube video of richard feynman talking&nbsp;
+about mathematics and physics the relationship&nbsp;&nbsp;
+
+00:40:40.080 --> 00:40:43.520
+between them and the math relationship between the&nbsp;
+mathematicians and the physicists in which you go&nbsp;&nbsp;
+
+00:40:43.520 --> 00:40:49.120
+it's almost like a stand-up routine that man was&nbsp;
+just so engaging so entertaining and so funny&nbsp;&nbsp;
+
+00:40:49.760 --> 00:40:54.000
+when he talks about certain things and that that&nbsp;
+particular one i'll try and remember to provide a&nbsp;&nbsp;
+
+00:40:54.000 --> 00:40:59.040
+link in the description to this video to that one&nbsp;
+i can't put a clip here i'd like to be able to put&nbsp;&nbsp;
+
+00:40:59.040 --> 00:41:04.160
+a clip here but it seems when i do that they they&nbsp;
+take down the entire video and it's such a hassle&nbsp;&nbsp;
+
+00:41:04.160 --> 00:41:09.520
+so i have to avoid putting clips in these days but&nbsp;
+in it you know like a feynman's basically saying&nbsp;&nbsp;
+
+00:41:10.480 --> 00:41:15.360
+your physicist is sort of interested in specific&nbsp;
+cases he's not interested in general cases you&nbsp;&nbsp;
+
+00:41:15.360 --> 00:41:19.760
+know he he goes along to the mathematician&nbsp;
+and then he says i'm interested in you know&nbsp;&nbsp;
+
+00:41:19.760 --> 00:41:24.960
+like the the the laws of gravity for example&nbsp;
+in in three-dimensional space i just need&nbsp;&nbsp;
+
+00:41:24.960 --> 00:41:28.080
+for three-dimensional space and the&nbsp;
+mathematic the pure mathematician will say&nbsp;&nbsp;
+
+00:41:28.080 --> 00:41:32.560
+well for an n-dimensional space here are the&nbsp;
+theorems that follow and the physicists will&nbsp;&nbsp;
+
+00:41:32.560 --> 00:41:36.080
+say i'm not interested in n dimensions&nbsp;
+i'm not interested in just the arbitrary&nbsp;&nbsp;
+
+00:41:36.080 --> 00:41:42.080
+you know sort of force i'm not interested in&nbsp;
+arbitrary spaces of n dimensions i'm interested&nbsp;&nbsp;
+
+00:41:42.080 --> 00:41:47.840
+in a specific case and the pure mathematician&nbsp;
+will say well just substitute n equals three then&nbsp;&nbsp;
+
+00:41:48.800 --> 00:41:52.560
+and then of course that finally goes on to&nbsp;
+say something like um then of course the&nbsp;&nbsp;
+
+00:41:52.560 --> 00:41:56.400
+physicist has to go crawling back to the&nbsp;
+pure mathematician at some point and say&nbsp;&nbsp;
+
+00:41:56.400 --> 00:42:01.840
+you know you're talking about those n-dimensional&nbsp;
+spaces um uh what about the case of n equals four&nbsp;&nbsp;
+
+00:42:02.960 --> 00:42:09.600
+because sometimes these the general case uh&nbsp;
+turns out to be very useful for the phys for the&nbsp;&nbsp;
+
+00:42:09.600 --> 00:42:13.760
+physicists and there is this cross pollination&nbsp;
+that happens between physics and mathematics&nbsp;&nbsp;
+
+00:42:13.760 --> 00:42:18.640
+of course what what is done in in math in pure&nbsp;
+mathematics sometimes is thought to be utterly&nbsp;&nbsp;
+
+00:42:18.640 --> 00:42:24.960
+irrelevant and you know i've mentioned before the&nbsp;
+case of g h hardy and a mathematician's apology uh&nbsp;&nbsp;
+
+00:42:24.960 --> 00:42:29.840
+he wrote this book about you know meeting romano&nbsp;
+jan another famous mathematician and hardy said&nbsp;&nbsp;
+
+00:42:29.840 --> 00:42:34.640
+hardy said of his own work that he didn't think it&nbsp;
+would ever have any applications to anything ever&nbsp;&nbsp;
+
+00:42:34.640 --> 00:42:40.960
+and he was quite proud of it he regarded as more&nbsp;
+being like art okay just to just it's exploring&nbsp;&nbsp;
+
+00:42:40.960 --> 00:42:46.320
+the space of mathematics for its own sake but in&nbsp;
+fact his own work i think it when it went on to&nbsp;&nbsp;
+
+00:42:46.320 --> 00:42:51.200
+be used in electrical engineering and you know had&nbsp;
+had applications anyway it had proper applications&nbsp;&nbsp;
+
+00:42:51.200 --> 00:42:55.360
+later on and you know that's the unpredictability&nbsp;
+of the growth of knowledge and it can happen in&nbsp;&nbsp;
+
+00:42:55.360 --> 00:43:01.200
+the other direction as well you know physicists&nbsp;
+can can do work in physics which then goes on to&nbsp;&nbsp;
+
+00:43:01.200 --> 00:43:05.920
+have a bearing on what happens in mathematics&nbsp;
+i think you know things like chaos theory you&nbsp;&nbsp;
+
+00:43:05.920 --> 00:43:12.240
+know there's first investigated by physicists&nbsp;
+about how seemingly purely deterministic systems&nbsp;&nbsp;
+
+00:43:12.240 --> 00:43:19.440
+bang you know simple laws can actually become&nbsp;
+chaotic even if you assume that the classical&nbsp;&nbsp;
+
+00:43:19.440 --> 00:43:22.800
+laws of physics the perfectly deterministic&nbsp;
+laws everything they can lead to these&nbsp;&nbsp;
+
+00:43:23.360 --> 00:43:29.920
+extremely complex behavior a double pendulum is is&nbsp;
+one such thing which uh has this interestingly uh&nbsp;&nbsp;
+
+00:43:29.920 --> 00:43:35.200
+chaotic behavior so that that comes from physics&nbsp;
+and and goes into pure mathematics and the pure&nbsp;&nbsp;
+
+00:43:35.200 --> 00:43:41.520
+mathematicians can explore that kind of thing but&nbsp;
+yes if you want to laugh definitely look up um&nbsp;&nbsp;
+
+00:43:41.520 --> 00:43:47.520
+feynman talking about mathematics and and&nbsp;
+physics let's keep going david writes quote&nbsp;&nbsp;
+
+00:43:47.520 --> 00:43:52.480
+the repertoires of the three very different&nbsp;
+abstract computers defined by during church and&nbsp;&nbsp;
+
+00:43:52.480 --> 00:43:57.680
+post was soon proved to be identical so have the&nbsp;
+repertoires of all abstract models of mathematical&nbsp;&nbsp;
+
+00:43:57.680 --> 00:44:02.480
+computation that have since been proposed&nbsp;
+this is deemed to lend support to the church&nbsp;&nbsp;
+
+00:44:02.480 --> 00:44:08.080
+turing conjecture and to the universality of the&nbsp;
+universal turing machine however the computing&nbsp;&nbsp;
+
+00:44:08.080 --> 00:44:14.880
+power of abstract machines has no bearing on&nbsp;
+what is computable in reality pausing there my&nbsp;&nbsp;
+
+00:44:14.880 --> 00:44:20.480
+reflection yes so here this is the genius of of&nbsp;
+david deutsch this is where it comes in right&nbsp;&nbsp;
+
+00:44:21.280 --> 00:44:27.680
+i mean yeah if you regard chewing as a genius for&nbsp;
+the inside about all of this computation stuff&nbsp;&nbsp;
+
+00:44:27.680 --> 00:44:32.720
+which he certainly was then so is this insight by&nbsp;
+david okay it may seem simple in retrospect you&nbsp;&nbsp;
+
+00:44:32.720 --> 00:44:37.360
+know like so much of science just seems simple&nbsp;
+like why couldn't i think of that well because&nbsp;&nbsp;
+
+00:44:39.360 --> 00:44:43.760
+you're not thinking about this particular problem&nbsp;
+all the time you could any of us could but we&nbsp;&nbsp;
+
+00:44:43.760 --> 00:44:49.680
+didn't it's the people that are passionately&nbsp;
+curious and interested in these particular&nbsp;&nbsp;
+
+00:44:49.680 --> 00:44:54.960
+problems and push the frontier of science in&nbsp;
+this case physics and computation forward this&nbsp;&nbsp;
+
+00:44:54.960 --> 00:45:01.440
+this whole idea that thinking about computation as&nbsp;
+actually being physical and not merely an abstract&nbsp;&nbsp;
+
+00:45:01.440 --> 00:45:09.920
+thing it takes insight questioning assumptions and&nbsp;
+that can be hard which assumptions do you question&nbsp;&nbsp;
+
+00:45:09.920 --> 00:45:16.000
+and once you question those assumptions what do&nbsp;
+you replace them with what what's better it's&nbsp;&nbsp;
+
+00:45:16.000 --> 00:45:21.440
+no point just saying oh let's assume that's false&nbsp;
+well then what are you going to put in its place&nbsp;&nbsp;
+
+00:45:22.240 --> 00:45:27.280
+if nothing does it lead to something&nbsp;
+better or not even even recognizing&nbsp;&nbsp;
+
+00:45:27.280 --> 00:45:32.160
+noticing in the first place that something&nbsp;
+is an assumption at all is hard computation&nbsp;&nbsp;
+
+00:45:32.160 --> 00:45:38.400
+is assumed to be abstract and not physical oh is&nbsp;
+it yeah that's an assumption and i guess a lot of&nbsp;&nbsp;
+
+00:45:38.400 --> 00:45:42.240
+the mathematicians who were doing this didn't&nbsp;
+realize the assumptions they were making you&nbsp;&nbsp;
+
+00:45:42.240 --> 00:45:48.560
+know who notices that kind of thing what is the&nbsp;
+consequence of that it's like oh physics is about&nbsp;&nbsp;
+
+00:45:48.560 --> 00:45:53.360
+dynamical laws you know you plug in the initial&nbsp;
+conditions and you calculate what goes on next&nbsp;&nbsp;
+
+00:45:54.160 --> 00:45:59.360
+but that's an assumption as well what if we&nbsp;
+relaxed that assumption and considered something&nbsp;&nbsp;
+
+00:45:59.360 --> 00:46:06.640
+deeper about what is possible and impossible why&nbsp;
+would we ever question the very foundations of&nbsp;&nbsp;
+
+00:46:06.640 --> 00:46:12.320
+physics who would ever do that well these things&nbsp;
+take creative leaps don't they and those creative&nbsp;&nbsp;
+
+00:46:12.320 --> 00:46:17.280
+leaps can be the hard part you have to sit down&nbsp;
+and you have to be creative and you have to&nbsp;&nbsp;
+
+00:46:17.280 --> 00:46:23.040
+think about these things they're hard and yet not&nbsp;
+hard you know like they're hard in once someone's&nbsp;&nbsp;
+
+00:46:23.040 --> 00:46:26.320
+done it you can look back and you go oh you&nbsp;
+know how could it have been otherwise it's&nbsp;&nbsp;
+
+00:46:26.320 --> 00:46:32.160
+that kind of thing but it's beforehand before&nbsp;
+the creative act has taken place that you know&nbsp;&nbsp;
+
+00:46:32.160 --> 00:46:36.880
+people are struggling to make the progress and&nbsp;
+yet it always seems in retrospect oh that was so&nbsp;&nbsp;
+
+00:46:37.760 --> 00:46:42.000
+simple i could have done that yeah you could&nbsp;
+have but you weren't focused on that problem&nbsp;&nbsp;
+
+00:46:42.000 --> 00:46:47.440
+were you and yet this is the kind of thing that&nbsp;
+anyone interested in progress needs to strive&nbsp;&nbsp;
+
+00:46:47.440 --> 00:46:51.920
+for it's not to say well you just go around&nbsp;
+assuming everything is false and then you're&nbsp;&nbsp;
+
+00:46:51.920 --> 00:46:57.200
+done you question everything and then you're done&nbsp;
+no you need an alternative this is the hard part&nbsp;&nbsp;
+
+00:46:57.200 --> 00:47:06.960
+you need to yeah take what is known now regard it&nbsp;
+as the best explanation now figure out what could&nbsp;&nbsp;
+
+00:47:06.960 --> 00:47:13.360
+possibly be false about it and replace that with&nbsp;
+something better something that is going to have&nbsp;&nbsp;
+
+00:47:14.080 --> 00:47:20.880
+consequences that you can investigate and pursue&nbsp;
+or that others can perhaps and then you might&nbsp;&nbsp;
+
+00:47:20.880 --> 00:47:26.960
+have a whole new field of physics let's say you&nbsp;
+might have a whole field of quantum computation&nbsp;&nbsp;
+
+00:47:26.960 --> 00:47:33.120
+say okay let's keep going david right quote&nbsp;
+the scope of virtual reality and its wider&nbsp;&nbsp;
+
+00:47:33.120 --> 00:47:38.480
+implications for the comprehensibility of nature&nbsp;
+and other aspects of the fabric of reality depends&nbsp;&nbsp;
+
+00:47:38.480 --> 00:47:44.160
+on whether the relevant computers are physically&nbsp;
+realizable in particular any genuine universal&nbsp;&nbsp;
+
+00:47:44.160 --> 00:47:50.000
+computer must itself be physically realisable&nbsp;
+this leads to a stronger version of the turing&nbsp;&nbsp;
+
+00:47:50.000 --> 00:47:55.440
+principle the turing principle for physical&nbsp;
+computers simulating each other it is possible&nbsp;&nbsp;
+
+00:47:55.440 --> 00:48:01.120
+to build a universal computer a machine that can&nbsp;
+be programmed to perform any computation that any&nbsp;&nbsp;
+
+00:48:01.120 --> 00:48:07.840
+other physical object can perform it follows that&nbsp;
+if a universal image generator were controlled by&nbsp;&nbsp;
+
+00:48:07.840 --> 00:48:12.880
+a universal computer the resulting machine would&nbsp;
+be a universal virtual reality generator in other&nbsp;&nbsp;
+
+00:48:12.880 --> 00:48:19.200
+words the following principle also holds the&nbsp;
+turing principle for virtual reality generators&nbsp;&nbsp;
+
+00:48:19.200 --> 00:48:24.240
+rendering each other it is possible to build&nbsp;
+a virtual reality generator whose repertoire&nbsp;&nbsp;
+
+00:48:24.240 --> 00:48:30.080
+includes that of every other physically possible&nbsp;
+virtual reality generator now any environment can&nbsp;&nbsp;
+
+00:48:30.080 --> 00:48:35.680
+be rendered by a virtual reality generator of some&nbsp;
+sort for instance one could always regard a copy&nbsp;&nbsp;
+
+00:48:35.680 --> 00:48:40.960
+of that very environment as a virtual reality&nbsp;
+generator with perhaps a very small repertoire&nbsp;&nbsp;
+
+00:48:40.960 --> 00:48:46.640
+so it also follows from this version of the turing&nbsp;
+principle that any physically possible environment&nbsp;&nbsp;
+
+00:48:46.640 --> 00:48:52.560
+can be rendered by the universal virtual reality&nbsp;
+generator hence to express the very strong&nbsp;&nbsp;
+
+00:48:52.560 --> 00:48:58.400
+self-similarity that exists in the structure of&nbsp;
+reality embracing not only computations but all&nbsp;&nbsp;
+
+00:48:58.400 --> 00:49:04.240
+physical processes the turing principle&nbsp;
+can be stated in this all embracing form&nbsp;&nbsp;
+
+00:49:05.040 --> 00:49:10.560
+the turing principle it is possible to build&nbsp;
+a virtual reality generator whose repertoire&nbsp;&nbsp;
+
+00:49:10.560 --> 00:49:17.920
+includes every physically possible environment&nbsp;
+this is the strongest form of the turing principle&nbsp;&nbsp;
+
+00:49:17.920 --> 00:49:24.720
+it not only tells us that various parts of reality&nbsp;
+can resemble one another it tells us that a single&nbsp;&nbsp;
+
+00:49:24.720 --> 00:49:29.520
+physical object buildable once and for all apart&nbsp;
+from maintenance and a supply of additional&nbsp;&nbsp;
+
+00:49:29.520 --> 00:49:35.760
+memory when needed can perform with unlimited&nbsp;
+accuracy the task of describing or mimicking&nbsp;&nbsp;
+
+00:49:35.760 --> 00:49:41.200
+any other part of the multiverse this set of&nbsp;
+all behaviors and responses that one object&nbsp;&nbsp;
+
+00:49:41.200 --> 00:49:45.200
+exactly mirrors the set of all behaviors and&nbsp;
+responses of all other physically possible&nbsp;&nbsp;
+
+00:49:45.200 --> 00:49:52.080
+objects and processes the set of all behaviors&nbsp;
+and responses of that one object exactly mirrors&nbsp;&nbsp;
+
+00:49:52.080 --> 00:49:58.240
+the set of all behaviors and responses of all&nbsp;
+other physically possible objects and processes&nbsp;&nbsp;
+
+00:49:58.960 --> 00:50:04.560
+pausing near my reflection so this is the basis of&nbsp;
+quantum computation this says that you can build&nbsp;&nbsp;
+
+00:50:04.560 --> 00:50:12.960
+this thing this computer quantum computer which so&nbsp;
+long as you have the program so long as you know&nbsp;&nbsp;
+
+00:50:12.960 --> 00:50:19.680
+what to feed into this computer it can represent&nbsp;
+that environment it can represent that world&nbsp;&nbsp;
+
+00:50:20.640 --> 00:50:27.440
+in particular if you have a theory of physics&nbsp;
+then you can program it in you can model&nbsp;&nbsp;
+
+00:50:28.640 --> 00:50:34.880
+the the rest of physical reality and&nbsp;
+and it also implies the existence of&nbsp;&nbsp;
+
+00:50:35.600 --> 00:50:41.920
+people who can understand because they also are&nbsp;
+rendering these environments with their models&nbsp;&nbsp;
+
+00:50:41.920 --> 00:50:49.280
+of science that this can be done too that&nbsp;
+that that this is the comprehensibility of&nbsp;&nbsp;
+
+00:50:49.920 --> 00:50:55.680
+physical reality as well well it allows for the&nbsp;
+comprehensibility of physical reality as well&nbsp;&nbsp;
+
+00:50:56.480 --> 00:51:01.200
+let's go on david writes on this exact&nbsp;
+point david goes on to write quote&nbsp;&nbsp;
+
+00:51:01.760 --> 00:51:06.240
+this is just the sort of similarity that is&nbsp;
+necessary if according to the hope i expressed in&nbsp;&nbsp;
+
+00:51:06.240 --> 00:51:11.840
+chapter one the fabric of reality is to be truly&nbsp;
+unified and comprehensible if the laws of physics&nbsp;&nbsp;
+
+00:51:11.840 --> 00:51:17.600
+as they apply to any physical object or process&nbsp;
+are to be comprehensible they must be capable&nbsp;&nbsp;
+
+00:51:17.600 --> 00:51:24.320
+of being embodied in another physical object the&nbsp;
+knower pausing there my reflection so that's the&nbsp;&nbsp;
+
+00:51:24.320 --> 00:51:32.720
+universal explainer now this particular passage&nbsp;
+is where i say david's just dropping insight bombs&nbsp;&nbsp;
+
+00:51:33.280 --> 00:51:35.840
+it's just so much of the&nbsp;
+beginning of infinity yet to come&nbsp;&nbsp;
+
+00:51:37.360 --> 00:51:44.000
+even stuff of the science of canon can't the&nbsp;
+constructor theory and it's just deep deep stuff&nbsp;&nbsp;
+
+00:51:45.120 --> 00:51:48.560
+so i'll go on okay and then i'm going to go&nbsp;
+back and i'm going to read some of this again&nbsp;&nbsp;
+
+00:51:49.360 --> 00:51:55.840
+for emphasis it's important david writes quote&nbsp;
+it is also necessary that processes capable of&nbsp;&nbsp;
+
+00:51:55.840 --> 00:52:00.800
+creating such knowledge be physically&nbsp;
+possible such processes are called&nbsp;&nbsp;
+
+00:52:00.800 --> 00:52:06.640
+science science depends on experimental&nbsp;
+testing which means physically rendering&nbsp;&nbsp;
+
+00:52:06.640 --> 00:52:12.560
+a law's predictions and comparing it with a&nbsp;
+rendering of reality end quote so we've moved from&nbsp;&nbsp;
+
+00:52:13.760 --> 00:52:23.120
+the existence of the universal computer the&nbsp;
+turing principle to the idea that knowers are&nbsp;&nbsp;
+
+00:52:23.120 --> 00:52:31.440
+able to come to a an understanding of physical&nbsp;
+reality that's entailed within this and also&nbsp;&nbsp;
+
+00:52:31.440 --> 00:52:38.800
+that science therefore is possible and physically&nbsp;
+testing theories is possible this is all coming&nbsp;&nbsp;
+
+00:52:38.800 --> 00:52:42.640
+from the same thing now i apologize if&nbsp;
+anyone feels patronized that i'm just&nbsp;&nbsp;
+
+00:52:44.160 --> 00:52:49.280
+laboring belaboring the point but it's&nbsp;
+just um um for anyone who's new to this&nbsp;&nbsp;
+
+00:52:50.400 --> 00:52:57.920
+the these can be deep insights and it's&nbsp;
+one reason why because of the density of of&nbsp;&nbsp;
+
+00:52:58.800 --> 00:53:03.760
+consequences that flow from and david pursues&nbsp;
+these these consequences but the density of them&nbsp;&nbsp;
+
+00:53:03.760 --> 00:53:10.320
+the number of them the depth of them means that&nbsp;
+sometimes the world view is difficult to convey&nbsp;&nbsp;
+
+00:53:10.320 --> 00:53:22.080
+in let's say a few tweets that it's all built&nbsp;
+uh in a sense as a web of these interconnected&nbsp;&nbsp;
+
+00:53:22.800 --> 00:53:31.040
+explanations about reality which have these&nbsp;
+connections between physics mathematics&nbsp;&nbsp;
+
+00:53:31.040 --> 00:53:39.520
+epistemology science more broadly philosophy&nbsp;
+let's keep going david writes it also depends&nbsp;&nbsp;
+
+00:53:39.520 --> 00:53:44.960
+on explanation and that requires abstract&nbsp;
+laws themselves not merely their predictive&nbsp;&nbsp;
+
+00:53:44.960 --> 00:53:50.640
+content to be capable of being rendered in&nbsp;
+virtual reality end quote so there we have&nbsp;&nbsp;
+
+00:53:52.480 --> 00:53:58.960
+david in the fabric of reality again you know&nbsp;
+laying laying out the the the the deep themes of&nbsp;&nbsp;
+
+00:53:58.960 --> 00:54:04.560
+the beginning of infinity and and again the idea&nbsp;
+of the noah here okay then the purpose of science&nbsp;&nbsp;
+
+00:54:05.760 --> 00:54:13.840
+the abstract laws themselves being explained not&nbsp;
+merely being about their predictive content being&nbsp;&nbsp;
+
+00:54:13.840 --> 00:54:19.600
+able to predict stuff instrumentalism is false&nbsp;
+david goes on quote this is a tall order but&nbsp;&nbsp;
+
+00:54:19.600 --> 00:54:24.800
+reality does meet it that is to say the laws of&nbsp;
+physics meter the laws of physics by conforming to&nbsp;&nbsp;
+
+00:54:24.800 --> 00:54:30.560
+the turing principle make it physically possible&nbsp;
+for those same laws to become known to physical&nbsp;&nbsp;
+
+00:54:30.560 --> 00:54:37.440
+objects thus the laws of physics may be said to&nbsp;
+mandate their own comprehensibility end quote so&nbsp;&nbsp;
+
+00:54:37.440 --> 00:54:45.520
+it's that kind of passage that sets the book apart&nbsp;
+from other books it is not merely the science&nbsp;&nbsp;
+
+00:54:46.480 --> 00:54:54.480
+it's philosophical exploration of these ideas&nbsp;
+and hence provides a whole world of view a way of&nbsp;&nbsp;
+
+00:54:54.480 --> 00:55:03.440
+thinking about reality that is coherent as far as&nbsp;
+we can tell it's the deepest one that we can tell&nbsp;&nbsp;
+
+00:55:04.320 --> 00:55:13.280
+providing for cosmic significance of people and&nbsp;
+comprehensibility of that cosmos and it goes on&nbsp;&nbsp;
+
+00:55:13.280 --> 00:55:20.560
+with more insight bombs but really i i just have&nbsp;
+to without interruption without interruption uh&nbsp;&nbsp;
+
+00:55:20.560 --> 00:55:25.920
+go go back and and just read through that okay&nbsp;
+because david's talking about self-similarity&nbsp;&nbsp;
+
+00:55:25.920 --> 00:55:31.040
+what is this self-similarity self-similarity is&nbsp;
+well and i'll talk about this in my nexus video&nbsp;&nbsp;
+
+00:55:31.040 --> 00:55:37.200
+the idea here is that in a person's mind they&nbsp;
+represent the rest of physical reality there's&nbsp;&nbsp;
+
+00:55:37.200 --> 00:55:45.200
+a self-similarity there's relationships between&nbsp;
+ideas you have in your mind that correspond&nbsp;&nbsp;
+
+00:55:46.240 --> 00:55:53.920
+to some degree of accuracy with physical reality&nbsp;
+that's what self-similarity is and so that&nbsp;&nbsp;
+
+00:55:54.800 --> 00:56:02.000
+that connection between us and the cosmos or&nbsp;
+all of reality rather you know you know every&nbsp;&nbsp;
+
+00:56:02.000 --> 00:56:07.840
+single thing that can be known makes us unique&nbsp;
+and important so let's just go through and read&nbsp;&nbsp;
+
+00:56:07.840 --> 00:56:13.920
+that again because it is just a one one of the&nbsp;
+reasons why this is one of my favorite chapters&nbsp;&nbsp;
+
+00:56:15.120 --> 00:56:21.440
+uh it's the wheelhouse of david deutch it&nbsp;
+underscores the the world view presented to&nbsp;&nbsp;
+
+00:56:21.440 --> 00:56:29.920
+us in in both of these books here the two this&nbsp;
+optimistic all-encompassing way in which these&nbsp;&nbsp;
+
+00:56:29.920 --> 00:56:37.520
+findings like the turing principle allow for&nbsp;
+comprehensibility infinite progress solving&nbsp;&nbsp;
+
+00:56:37.520 --> 00:56:41.680
+of problems let's just read it again let's just&nbsp;
+read it again and enjoy it without my interruption&nbsp;&nbsp;
+
+00:56:43.440 --> 00:56:48.480
+quote this is just the sort of self-similarity&nbsp;
+that is necessary if according to the hope i&nbsp;&nbsp;
+
+00:56:48.480 --> 00:56:53.520
+expressed in chapter one the fabric of reality&nbsp;
+is to be truly unified and comprehensible&nbsp;&nbsp;
+
+00:56:53.520 --> 00:56:57.440
+if the laws of physics as they apply to&nbsp;
+any physical object or process are to be&nbsp;&nbsp;
+
+00:56:57.440 --> 00:57:02.240
+comprehensible they must be capable of being&nbsp;
+embodied in another physical object the knower&nbsp;&nbsp;
+
+00:57:02.240 --> 00:57:07.600
+it is also necessary that processes capable of&nbsp;
+creating such knowledge be physically possible&nbsp;&nbsp;
+
+00:57:07.600 --> 00:57:12.480
+such processes are called science science&nbsp;
+depends on experimental testing which means&nbsp;&nbsp;
+
+00:57:12.480 --> 00:57:16.480
+physically rendering a law's predictions&nbsp;
+and comparing it with a rendering of reality&nbsp;&nbsp;
+
+00:57:16.480 --> 00:57:20.720
+it also depends on explanation and that&nbsp;
+requires the abstract laws themselves&nbsp;&nbsp;
+
+00:57:20.720 --> 00:57:25.600
+not merely their predictive content to be capable&nbsp;
+of being rendered in virtual reality this is a&nbsp;&nbsp;
+
+00:57:25.600 --> 00:57:31.040
+tall order but reality does meet it that is to say&nbsp;
+the laws of physics meet it the laws of physics&nbsp;&nbsp;
+
+00:57:31.040 --> 00:57:36.320
+by conforming to the turing principle make it&nbsp;
+physically possible for those same laws to become&nbsp;&nbsp;
+
+00:57:36.320 --> 00:57:43.040
+known to physical objects thus the laws of physics&nbsp;
+may be said to mandate their own comprehensibility
+
+00:57:45.600 --> 00:57:53.200
+amazing stuff the scientific view of&nbsp;
+the deep importance of human beings&nbsp;&nbsp;
+
+00:57:53.200 --> 00:58:01.600
+as people the scientific view the rejection of&nbsp;
+parochialism and the principle of mediocrity&nbsp;&nbsp;
+
+00:58:01.600 --> 00:58:07.840
+and pessimism about people as a chemical&nbsp;
+scum that's all there that we are unique&nbsp;&nbsp;
+
+00:58:08.640 --> 00:58:16.480
+and in some sense written into the laws of physics&nbsp;
+okay let's keep going david right quote since&nbsp;&nbsp;
+
+00:58:16.480 --> 00:58:21.600
+building a universal virtual reality generator is&nbsp;
+physically possible it must actually be built in&nbsp;&nbsp;
+
+00:58:21.600 --> 00:58:26.560
+some universes a caveat is necessary here as&nbsp;
+i explained in chapter three we can normally&nbsp;&nbsp;
+
+00:58:26.560 --> 00:58:31.600
+define a physically possible process as one that&nbsp;
+actually occurs somewhere in the multiverse but&nbsp;&nbsp;
+
+00:58:31.600 --> 00:58:35.840
+strictly speaking a universal virtual reality&nbsp;
+generator is a limiting case that requires&nbsp;&nbsp;
+
+00:58:36.480 --> 00:58:41.520
+arbitrarily large resources to operate&nbsp;
+so what we mean by saying that it is&nbsp;&nbsp;
+
+00:58:41.520 --> 00:58:46.640
+physically possible is that virtual reality&nbsp;
+generators would repertoires arbitrarily close&nbsp;&nbsp;
+
+00:58:46.640 --> 00:58:50.240
+to the set of all physically possible&nbsp;
+environments exist in the multiverse&nbsp;&nbsp;
+
+00:58:50.880 --> 00:58:56.480
+similarly since the laws of physics are capable&nbsp;
+of being rendered they are rendered somewhere&nbsp;&nbsp;
+
+00:58:56.480 --> 00:59:00.080
+thus it follows from the turing principle in&nbsp;
+the strong form for which i have argued that&nbsp;&nbsp;
+
+00:59:00.080 --> 00:59:04.800
+the laws of physics do not merely mandate their&nbsp;
+own comprehensibility in some abstract sense&nbsp;&nbsp;
+
+00:59:05.440 --> 00:59:11.440
+comprehensibility by abstract scientists as it&nbsp;
+were they imply the physical existence somewhere&nbsp;&nbsp;
+
+00:59:11.440 --> 00:59:17.360
+in the multiverse of entities that understand them&nbsp;
+arbitrarily well i shall discuss this implication&nbsp;&nbsp;
+
+00:59:17.360 --> 00:59:22.000
+further in later chapters pausing there just my&nbsp;
+reflection yes so when it says there just be aware&nbsp;&nbsp;
+
+00:59:23.360 --> 00:59:28.480
+now i'm not speaking this is me talking this&nbsp;
+is not david talking i could be wrong mistakes&nbsp;&nbsp;
+
+00:59:28.480 --> 00:59:33.920
+my own this could be one of them and i'm about&nbsp;
+to make but my understanding of that there is&nbsp;&nbsp;
+
+00:59:33.920 --> 00:59:38.880
+when he says they imply the physical existence&nbsp;
+somewhere in the multiverse of entities that&nbsp;&nbsp;
+
+00:59:38.880 --> 00:59:45.120
+understand them arbitrarily well he's not&nbsp;
+saying that here right now at the same time&nbsp;&nbsp;
+
+00:59:45.120 --> 00:59:50.800
+as us somewhere there are aliens that exist that&nbsp;
+understand their arbitrarily well it's that we&nbsp;&nbsp;
+
+00:59:50.800 --> 00:59:57.920
+could be those entities if we're not then someone&nbsp;
+else will be some other species will be but we&nbsp;&nbsp;
+
+00:59:57.920 --> 01:00:04.560
+could be that species we could be those entities&nbsp;
+that understand the physical laws arbitrarily well&nbsp;&nbsp;
+
+01:00:05.120 --> 01:00:11.280
+in other words people are mandated by the laws of&nbsp;
+physics if they're possible they exist somewhere&nbsp;&nbsp;
+
+01:00:11.280 --> 01:00:15.840
+well here we are here we are now it could be&nbsp;
+the case that a great catastrophe wipes us out&nbsp;&nbsp;
+
+01:00:16.480 --> 01:00:23.680
+that the bostroms and rhesus and various other&nbsp;
+uh intellectuals who think that civilization&nbsp;&nbsp;
+
+01:00:25.280 --> 01:00:29.280
+could come to an end we all think it could&nbsp;
+come to an end but they they seem to be&nbsp;&nbsp;
+
+01:00:29.280 --> 01:00:33.200
+tend to be putting their eggs into&nbsp;
+that basket of civilization crumbling&nbsp;&nbsp;
+
+01:00:34.800 --> 01:00:37.760
+they could be right and if they are&nbsp;
+right then we won't be the ones that&nbsp;&nbsp;
+
+01:00:38.400 --> 01:00:44.160
+go on to understand the physical laws&nbsp;
+arbitrarily well but other people will okay&nbsp;&nbsp;
+
+01:00:45.360 --> 01:00:52.480
+so so that's my understanding of that we could&nbsp;
+be the ones i think we will be i think we will be&nbsp;&nbsp;
+
+01:00:54.160 --> 01:00:57.360
+it appears to be the case there needs&nbsp;
+to be a history of optimism written&nbsp;&nbsp;
+
+01:00:58.720 --> 01:01:06.240
+that that things are getting better not&nbsp;
+irrevocably not necessarily but there are&nbsp;&nbsp;
+
+01:01:06.880 --> 01:01:14.480
+explanations that go into allowing for the&nbsp;
+dynamic society which we are occupying right now&nbsp;&nbsp;
+
+01:01:15.200 --> 01:01:22.320
+and the robustness and the resilience of&nbsp;
+this society is growing not diminishing&nbsp;&nbsp;
+
+01:01:22.880 --> 01:01:28.720
+of course hyperbole and pessimism is increasing&nbsp;
+to some extent in some places but optimism is&nbsp;&nbsp;
+
+01:01:28.720 --> 01:01:33.840
+increasing in other places as well okay so in&nbsp;
+the west sometimes we end up having a bit of a&nbsp;&nbsp;
+
+01:01:34.480 --> 01:01:40.240
+a blinkered view because our intellectuals&nbsp;
+have a certain culture at the moment i think&nbsp;&nbsp;
+
+01:01:40.240 --> 01:01:46.320
+it's transient i think that you know there'll be a&nbsp;
+resurgence of optimism people are gonna get bored&nbsp;&nbsp;
+
+01:01:47.760 --> 01:01:53.200
+they're gonna get bored with the constant&nbsp;
+pessimism the constant way in which people&nbsp;&nbsp;
+
+01:01:53.200 --> 01:01:59.120
+human beings talk down human beings and talk up&nbsp;
+the environment this can't last this can't last&nbsp;&nbsp;
+
+01:01:59.920 --> 01:02:05.840
+i'm hopeful okay let's keep going i don't&nbsp;
+want to get too off track david writes&nbsp;&nbsp;
+
+01:02:06.560 --> 01:02:12.160
+quote now i return to the question i posed&nbsp;
+in the previous chapter namely whether if we&nbsp;&nbsp;
+
+01:02:12.160 --> 01:02:16.080
+only had a virtual reality rendering based&nbsp;
+on the wrong laws of physics to learn from&nbsp;&nbsp;
+
+01:02:16.080 --> 01:02:22.080
+we should expect to learn the wrong laws the first&nbsp;
+thing to stress is that we do have only virtual&nbsp;&nbsp;
+
+01:02:22.080 --> 01:02:27.920
+reality based on the wrong laws to learn from as&nbsp;
+i've said all their external experiences are of&nbsp;&nbsp;
+
+01:02:27.920 --> 01:02:34.080
+virtual reality generated by our own brains and&nbsp;
+since our concepts and theories whether inborn&nbsp;&nbsp;
+
+01:02:34.080 --> 01:02:39.920
+or learned are never perfect all our renderings&nbsp;
+are indeed inaccurate that is to say they give&nbsp;&nbsp;
+
+01:02:39.920 --> 01:02:43.840
+us the experience of an environment that is&nbsp;
+significantly different from the environment&nbsp;&nbsp;
+
+01:02:43.840 --> 01:02:49.040
+that we are really in mirages and other optical&nbsp;
+illusions are examples of this another is that&nbsp;&nbsp;
+
+01:02:49.040 --> 01:02:52.800
+we experience the earth to be at rest beneath&nbsp;
+our feet despite its rapid and complex motion&nbsp;&nbsp;
+
+01:02:52.800 --> 01:02:57.600
+in reality another is that we experience a single&nbsp;
+universe and a single instance of our unconscious&nbsp;&nbsp;
+
+01:02:57.600 --> 01:03:02.480
+selves at a time while in reality there are many&nbsp;
+but these inaccurate and misleading experiences&nbsp;&nbsp;
+
+01:03:02.480 --> 01:03:06.960
+provide no argument against scientific reasoning&nbsp;
+on the contrary such deficiencies are its very&nbsp;&nbsp;
+
+01:03:06.960 --> 01:03:13.040
+starting point pausing their my reflection yes so&nbsp;
+this is the refutation of empiricism our senses&nbsp;&nbsp;
+
+01:03:13.040 --> 01:03:19.280
+don't provide us with accurate information we need&nbsp;
+science science is about explaining what we see&nbsp;&nbsp;
+
+01:03:20.000 --> 01:03:26.080
+in terms of what we don't see it's the scene in&nbsp;
+terms of the unseen my desk here made of wood&nbsp;&nbsp;
+
+01:03:27.360 --> 01:03:34.240
+solid continuous matter it feels like feels&nbsp;
+nice and smooth we know it's bumpy atoms&nbsp;&nbsp;
+
+01:03:34.240 --> 01:03:40.400
+can't see the atoms my senses are not going to&nbsp;
+be able to tell me that but we have theories&nbsp;&nbsp;
+
+01:03:40.400 --> 01:03:44.480
+and we had theories of atoms before we had&nbsp;
+scanning electron microscopes that could&nbsp;&nbsp;
+
+01:03:45.760 --> 01:03:51.760
+produce images for us of those atoms&nbsp;
+no image is possible no way of seeing&nbsp;&nbsp;
+
+01:03:52.800 --> 01:03:59.680
+what is going on in the scent core of the sun&nbsp;
+the core of the sun is not directly observable&nbsp;&nbsp;
+
+01:04:00.400 --> 01:04:05.280
+we can see the surface but we know what's going&nbsp;
+on there we know what's going on there because&nbsp;&nbsp;
+
+01:04:05.280 --> 01:04:11.040
+of our explanations big bang no one's going to be&nbsp;
+there to observe it no one was there to observe it&nbsp;&nbsp;
+
+01:04:11.040 --> 01:04:16.560
+but we know what happened no one's going to see a&nbsp;
+dinosaur almost everything in science is like this&nbsp;&nbsp;
+
+01:04:18.080 --> 01:04:25.840
+we don't see the stuff that that really explains&nbsp;
+what we do see whether because it's too small&nbsp;&nbsp;
+
+01:04:27.360 --> 01:04:31.760
+too vast too far back in time so on and so forth
+
+01:04:33.840 --> 01:04:41.360
+science is about the scene in terms of the unseen&nbsp;
+we get an inaccurate experience of reality our&nbsp;&nbsp;
+
+01:04:41.360 --> 01:04:51.120
+experience is virtual reality real reality yeah we&nbsp;
+can come to approximate that uh more and more over&nbsp;&nbsp;
+
+01:04:51.120 --> 01:04:56.160
+time more and more closely over time and we do&nbsp;
+but still i mean we're just barely scratching the&nbsp;&nbsp;
+
+01:04:56.160 --> 01:05:00.960
+surface as the beginning of infinity emphasizes&nbsp;
+they're always at the beginning of infinity war&nbsp;&nbsp;
+
+01:05:00.960 --> 01:05:07.920
+is just scratching the surface our virtual reality&nbsp;
+rendering understanding improves over time that's&nbsp;&nbsp;
+
+01:05:07.920 --> 01:05:11.920
+science that's a that's that kind of virtuality&nbsp;
+and then there's the virtual reality of us just&nbsp;&nbsp;
+
+01:05:11.920 --> 01:05:19.120
+being minds running on brains in the darkness&nbsp;
+of our of our skulls that's where we really are&nbsp;&nbsp;
+
+01:05:20.320 --> 01:05:26.240
+but we are connected to the rest of physical&nbsp;
+reality via these imperfect sense gathering things&nbsp;&nbsp;
+
+01:05:26.880 --> 01:05:32.400
+eyes and ears and hands and so on okay let's&nbsp;
+keep going david writes quote we are embarked&nbsp;&nbsp;
+
+01:05:32.400 --> 01:05:37.520
+upon solving problems about physical reality&nbsp;
+if it turns out that all this time we have&nbsp;&nbsp;
+
+01:05:37.520 --> 01:05:42.560
+merely been studying the programming of a cosmic&nbsp;
+planetarium then that would merely mean that we&nbsp;&nbsp;
+
+01:05:42.560 --> 01:05:47.600
+have been studying a smaller portion of reality&nbsp;
+than we thought so what such things have happened&nbsp;&nbsp;
+
+01:05:47.600 --> 01:05:51.760
+many times in the history of science as our&nbsp;
+horizons have expanded beyond the earth to&nbsp;&nbsp;
+
+01:05:51.760 --> 01:05:56.880
+include the solar system our galaxy other galaxies&nbsp;
+clusters of galaxies and so on and of course&nbsp;&nbsp;
+
+01:05:56.880 --> 01:06:02.080
+parallel universes another such broadening&nbsp;
+may happen tomorrow indeed it may happen&nbsp;&nbsp;
+
+01:06:02.080 --> 01:06:07.280
+according to any one of an infinity of possible&nbsp;
+theories or it may never happen logically we must&nbsp;&nbsp;
+
+01:06:07.280 --> 01:06:12.880
+concede to solipsism and related doctrines&nbsp;
+that the reality we are learning about might&nbsp;&nbsp;
+
+01:06:13.600 --> 01:06:18.080
+be an unrepresentative portion of a larger&nbsp;
+inaccessible or incomprehensible structure&nbsp;&nbsp;
+
+01:06:18.080 --> 01:06:23.040
+but the general refutation i have given of such&nbsp;
+doctrines shows that it is irrational to build&nbsp;&nbsp;
+
+01:06:23.040 --> 01:06:28.320
+upon that possibility following occam we shall&nbsp;
+entertain such theories when and only when they&nbsp;&nbsp;
+
+01:06:28.320 --> 01:06:33.520
+provide better explanations than simple rival&nbsp;
+theories pausing there my reflection yeah exactly&nbsp;&nbsp;
+
+01:06:33.520 --> 01:06:38.960
+reality realism rather realism allows for&nbsp;
+progress to be made problems to be solved&nbsp;&nbsp;
+
+01:06:40.000 --> 01:06:46.800
+the but the opposite solipsism well how do&nbsp;
+you build on that what follows okay it's&nbsp;&nbsp;
+
+01:06:46.800 --> 01:06:52.960
+all a dream okay what follows if what follows&nbsp;
+jaron linear makes this problem if what follows&nbsp;&nbsp;
+
+01:06:52.960 --> 01:06:57.120
+is well science still works in the same way&nbsp;
+it would under realism you've just got an&nbsp;&nbsp;
+
+01:06:57.120 --> 01:07:03.280
+unnecessary assumption don't you you know realism&nbsp;
+is just work works but let's add on top of that&nbsp;&nbsp;
+
+01:07:04.320 --> 01:07:08.640
+but it's all a dream why not just do away&nbsp;
+with the but it's all a dream but it's all a&nbsp;&nbsp;
+
+01:07:08.640 --> 01:07:13.840
+simulation and just get on with science because&nbsp;
+that's the most parsimonious way of working&nbsp;&nbsp;
+
+01:07:15.280 --> 01:07:20.480
+assume things are real david goes on to write&nbsp;
+quote however there is a question we can still&nbsp;&nbsp;
+
+01:07:20.480 --> 01:07:26.080
+ask suppose that someone were imprisoned in a&nbsp;
+small unrepresentative portion of our own reality&nbsp;&nbsp;
+
+01:07:26.080 --> 01:07:31.760
+for instance inside a universal virtual reality&nbsp;
+generator that was programmed with the wrong laws&nbsp;&nbsp;
+
+01:07:31.760 --> 01:07:37.520
+of physics what could such prisoners learn about&nbsp;
+our external reality at first sight it seems&nbsp;&nbsp;
+
+01:07:37.520 --> 01:07:43.760
+impossible that they could discover anything at&nbsp;
+all about it it may seem that the most they could&nbsp;&nbsp;
+
+01:07:43.760 --> 01:07:49.760
+discover would be the laws of operation i.e the&nbsp;
+program of the computer that operated their prison&nbsp;&nbsp;
+
+01:07:50.400 --> 01:07:55.840
+but that is not so again we must bear in&nbsp;
+mind that if the prisoners are scientists&nbsp;&nbsp;
+
+01:07:56.480 --> 01:08:02.000
+they will be seeking explanations as well&nbsp;
+as predictions in other words they will not&nbsp;&nbsp;
+
+01:08:02.000 --> 01:08:06.160
+be content with merely knowing the program&nbsp;
+that operates their prison they will want to&nbsp;&nbsp;
+
+01:08:06.160 --> 01:08:12.000
+explain the origin and attributes of the various&nbsp;
+entities including themselves that they observe&nbsp;&nbsp;
+
+01:08:12.000 --> 01:08:17.200
+in the reality they inhabit but in most virtual&nbsp;
+reality environments no such explanation exists&nbsp;&nbsp;
+
+01:08:17.200 --> 01:08:21.920
+for the rendered objects do not originate there&nbsp;
+but have been designed in the external reality&nbsp;&nbsp;
+
+01:08:22.480 --> 01:08:27.360
+suppose that you are playing a virtual reality&nbsp;
+video game for the sake of simplicity suppose&nbsp;&nbsp;
+
+01:08:27.360 --> 01:08:33.040
+that the game is essentially chess a first person&nbsp;
+perspective version perhaps in which you adopt&nbsp;&nbsp;
+
+01:08:33.040 --> 01:08:38.080
+the persona of the king you will use the normal&nbsp;
+methods of science to discover this environment's&nbsp;&nbsp;
+
+01:08:38.080 --> 01:08:44.080
+laws of physics and their emergent consequences&nbsp;
+you will learn that checkmate and stalemate are&nbsp;&nbsp;
+
+01:08:44.080 --> 01:08:49.280
+physically possible events a possible under your&nbsp;
+best understanding of how the environment works&nbsp;&nbsp;
+
+01:08:49.920 --> 01:08:55.600
+but that a position with nine white pawns is&nbsp;
+not physically possible once you had understood&nbsp;&nbsp;
+
+01:08:55.600 --> 01:09:00.400
+the law sufficiently well you would notice that&nbsp;
+the chessboard is too simple an object to have&nbsp;&nbsp;
+
+01:09:00.400 --> 01:09:07.360
+for instance thoughts and consequently that your&nbsp;
+own thought processes cannot be governed by the&nbsp;&nbsp;
+
+01:09:07.360 --> 01:09:13.920
+laws of chess alone similarly you could tell that&nbsp;
+during any number of games of chess the pieces can&nbsp;&nbsp;
+
+01:09:13.920 --> 01:09:19.680
+never evolve into self-reproducing configurations&nbsp;
+and if life cannot evolve on the chessboard&nbsp;&nbsp;
+
+01:09:19.680 --> 01:09:24.960
+far less can intelligence evolve therefore you&nbsp;
+would also infer that your own thought processes&nbsp;&nbsp;
+
+01:09:24.960 --> 01:09:31.040
+could not have originated in the universe in which&nbsp;
+you found yourself so even if you had lived within&nbsp;&nbsp;
+
+01:09:31.040 --> 01:09:34.880
+the rendered environment or your life and did&nbsp;
+not have your own memories of the outside world&nbsp;&nbsp;
+
+01:09:34.880 --> 01:09:39.920
+to account for as well your knowledge would not be&nbsp;
+confined to that environment you would know that&nbsp;&nbsp;
+
+01:09:39.920 --> 01:09:43.680
+even though the universe seemed to have&nbsp;
+a certain layout and obey certain laws&nbsp;&nbsp;
+
+01:09:43.680 --> 01:09:49.600
+there must be a wider universe outside it obeying&nbsp;
+different laws of physics and you could even guess&nbsp;&nbsp;
+
+01:09:49.600 --> 01:09:54.640
+some of the ways in which those wider laws would&nbsp;
+have to be different from the chessboard laws&nbsp;&nbsp;
+
+01:09:55.280 --> 01:09:59.120
+arthur c clarke once remarked that&nbsp;
+any sufficiently advanced technology&nbsp;&nbsp;
+
+01:09:59.120 --> 01:10:05.120
+is indistinguishable from magic this is true but&nbsp;
+slightly misleading it is stated from the point&nbsp;&nbsp;
+
+01:10:05.120 --> 01:10:12.160
+of view of a pre-scientific thinker which is the&nbsp;
+wrong way around the fact is that to anyone who&nbsp;&nbsp;
+
+01:10:12.160 --> 01:10:17.760
+understands what virtual reality is even genuine&nbsp;
+magic would be indistinguishable from technology&nbsp;&nbsp;
+
+01:10:17.760 --> 01:10:24.240
+for there is no room for magic in a comprehensible&nbsp;
+reality anything that seems incomprehensible is&nbsp;&nbsp;
+
+01:10:24.240 --> 01:10:28.720
+regarded by science merely as evidence there&nbsp;
+is something we have not yet understood be&nbsp;&nbsp;
+
+01:10:28.720 --> 01:10:34.000
+it a conjuring trick advanced technology or&nbsp;
+a new law of physics pausing there just um&nbsp;&nbsp;
+
+01:10:35.440 --> 01:10:41.840
+that seems like a tweetable quote doesn't it i'll&nbsp;
+read it again anything that seems incomprehensible&nbsp;&nbsp;
+
+01:10:41.840 --> 01:10:46.000
+is regarded by science merely as evidence that&nbsp;
+there is something we have not yet understood&nbsp;&nbsp;
+
+01:10:46.640 --> 01:10:51.680
+be it a conjuring trick advanced technology&nbsp;
+or a new law of physics and he goes on to say&nbsp;&nbsp;
+
+01:10:52.400 --> 01:10:58.240
+reasoning from the premise of one's own existence&nbsp;
+is called anthropic reasoning although it has some&nbsp;&nbsp;
+
+01:10:58.240 --> 01:11:03.520
+applicability in cosmology it usually has to be&nbsp;
+supplemented by substantive assumptions about the&nbsp;&nbsp;
+
+01:11:03.520 --> 01:11:09.600
+nature of one's self before it yields definite&nbsp;
+conclusions but anthropic reasoning is not the&nbsp;&nbsp;
+
+01:11:09.600 --> 01:11:14.720
+only way in which the inmates of our hypothetical&nbsp;
+virtual reality prison could gain knowledge of an&nbsp;&nbsp;
+
+01:11:14.720 --> 01:11:20.720
+outside world any of their evolving explanations&nbsp;
+of their narrow world could at the drop of a hat&nbsp;&nbsp;
+
+01:11:21.280 --> 01:11:27.520
+reach into an outside reality for instance the&nbsp;
+very rules of chess contain what a thoughtful&nbsp;&nbsp;
+
+01:11:27.520 --> 01:11:32.880
+player may realize is fossil evidence of&nbsp;
+those rules having had an evolutionary history&nbsp;&nbsp;
+
+01:11:32.880 --> 01:11:38.640
+there are exceptional moves such as castling and&nbsp;
+capturing on passant which increase the complexity&nbsp;&nbsp;
+
+01:11:38.640 --> 01:11:44.640
+of the rules but improve the game in explaining&nbsp;
+that complexity one justifiably concludes that&nbsp;&nbsp;
+
+01:11:44.640 --> 01:11:50.000
+the rules of chess were not always as they&nbsp;
+are now in the popularian scheme of things&nbsp;&nbsp;
+
+01:11:50.000 --> 01:11:56.560
+explanations always lead to new problems which in&nbsp;
+turn require further explanations if the prisoners&nbsp;&nbsp;
+
+01:11:56.560 --> 01:12:02.080
+fail after a while to improve upon their existing&nbsp;
+explanations they may of course give up perhaps&nbsp;&nbsp;
+
+01:12:02.080 --> 01:12:06.960
+falsely concluding that there are no explanations&nbsp;
+available but if they do not give up they'll be&nbsp;&nbsp;
+
+01:12:06.960 --> 01:12:12.720
+thinking about those aspects of their environment&nbsp;
+that seem inadequately explained thus if the high&nbsp;&nbsp;
+
+01:12:12.720 --> 01:12:17.840
+technology jailers wanted to be confident that&nbsp;
+their rendered environment would forever fool&nbsp;&nbsp;
+
+01:12:17.840 --> 01:12:22.320
+their prisoners into thinking there is no outside&nbsp;
+world they would have their work cut out for them&nbsp;&nbsp;
+
+01:12:22.880 --> 01:12:27.840
+the longer they wanted the illusion to last&nbsp;
+the more ingenious the program would have to be&nbsp;&nbsp;
+
+01:12:27.840 --> 01:12:31.840
+it is not enough that the inmates be&nbsp;
+prevented from observing the outside&nbsp;&nbsp;
+
+01:12:31.840 --> 01:12:37.760
+the rendered environment would also have to be&nbsp;
+such that no explanations of anything inside&nbsp;&nbsp;
+
+01:12:37.760 --> 01:12:44.080
+would ever require one to postulate an outside&nbsp;
+the environment in other words would have to be&nbsp;&nbsp;
+
+01:12:44.080 --> 01:12:50.560
+self-contained as regards explanations but i doubt&nbsp;
+that any part of reality short of the whole thing&nbsp;&nbsp;
+
+01:12:51.120 --> 01:12:59.200
+has that property end quote end of the&nbsp;
+chapter long one today but as i think i hope&nbsp;&nbsp;
+
+01:12:59.200 --> 01:13:06.800
+you will agree this just is so dense and deep&nbsp;
+and sort of has feelers into the rest of the book&nbsp;&nbsp;
+
+01:13:06.800 --> 01:13:13.040
+and the beginning affinity and the world&nbsp;
+view as i say this this way of understanding&nbsp;&nbsp;
+
+01:13:13.040 --> 01:13:18.480
+the place of human beings and people in the cosmic&nbsp;
+scheme of things how it is that we can go about&nbsp;&nbsp;
+
+01:13:19.360 --> 01:13:26.240
+creating an infinite stream of solutions to the&nbsp;
+problems that we encounter via creating knowledge&nbsp;&nbsp;
+
+01:13:26.240 --> 01:13:30.320
+and there's the bounds imposed by the laws of&nbsp;
+physics are there and they're real but they don't&nbsp;&nbsp;
+
+01:13:30.320 --> 01:13:36.400
+prevent us from making infinite progress which is&nbsp;
+what optimism is all about but because this has&nbsp;&nbsp;
+
+01:13:36.400 --> 01:13:45.840
+been a long one i won't have a long outro today&nbsp;
+and instead i'll just say until next time bye
+
+01:13:59.280 --> 01:14:05.440
+of course if you would like to support this&nbsp;
+endeavor of me exploring the world view that&nbsp;&nbsp;
+
+01:14:05.440 --> 01:14:11.120
+is contained within the philosophy of karl&nbsp;
+poppo the the science and philosophy of&nbsp;&nbsp;
+
+01:14:11.120 --> 01:14:18.560
+david deutsch constructor theory infinite progress&nbsp;
+rational optimism so on and so forth all the all&nbsp;&nbsp;
+
+01:14:18.560 --> 01:14:25.360
+the good stuff that we talk about here then&nbsp;
+please go to my website www.bretthall.org
+
+01:14:25.360 --> 01:14:41.840
+org and there there are links to&nbsp;
+patreon paper until next time bye&nbsp;&nbsp;
+
+01:14:57.360 --> 01:15:05.760
+up
+
