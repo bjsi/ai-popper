@@ -83,7 +83,7 @@ async function main() {
         }))
         .filter((x) => !x.text.includes("<c>")) as ResourceChunk[];
 
-      // join chunks into 256 token chunks
+      // join transcript segments into 256 token chunks
 
       let mergedChunks: ResourceChunk[] = [];
       let tempText = "";
