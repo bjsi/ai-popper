@@ -4,11 +4,10 @@ import {
   upsertIntoVectorIndex,
 } from "modelfusion";
 import * as fs from "node:fs/promises";
-import path from "node:path";
-import { embeddingModel } from "./embed";
 import { ResourceChunk } from "../types";
 import { vectorDataFile } from "./filesystem";
 import { existsSync } from "node:fs";
+import { embeddingModel } from "./embeddingModel";
 
 type VectorIndex = MemoryVectorIndex<ResourceChunk>;
 

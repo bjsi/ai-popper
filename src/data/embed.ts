@@ -1,26 +1,14 @@
-import {
-  OpenAITextEmbeddingModel,
-  splitAtToken,
-  splitTextChunks,
-} from "modelfusion";
+import { splitAtToken, splitTextChunks } from "modelfusion";
 import { MyVectorIndex } from "./myVectorIndex";
 import { ResourceChunk } from "../types";
 import path from "node:path";
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
-import {
-  allProcessdVideosFolder,
-  allTranscriptsFolder,
-  getEmbeddedVideosFilePath,
-  getTranscriptsDownloadedVideosFilePath,
-} from "./filesystem";
+import { allTranscriptsFolder, getEmbeddedVideosFilePath } from "./filesystem";
 import { parseSync } from "subtitle";
 import dotenv from "dotenv";
+import { embeddingModel } from "./embeddingModel";
 
 dotenv.config();
-
-export const embeddingModel = new OpenAITextEmbeddingModel({
-  model: "text-embedding-ada-002",
-});
 
 export async function embedText<ChunkType extends ResourceChunk>(
   vectorIndex: MyVectorIndex,
@@ -62,6 +50,7 @@ async function main() {
     const videoFiles = readdirSync(channelPath).filter((f) =>
       f.endsWith(".vtt")
     );
+
     for (const file of videoFiles) {
       console.log(`Processing ${file}...`);
       const videoId = path.basename(file, ".en.vtt");
@@ -78,7 +67,11 @@ async function main() {
         .map((cue) => ({
           text: (typeof cue.data === "string" ? cue.data : cue.data.text)
             .trim()
+            // replace newlines with spaces
             .replace(/\n/g, " ")
+            // replace &nbsp;
+            .replace(/\&nbsp;/g, " ")
+            // remove all tags
             .replace(/\[.*?\]/g, ""),
           type: "youtube",
           url: `https://www.youtube.com/watch?v=${videoId}`,
@@ -86,7 +79,6 @@ async function main() {
           end: typeof cue.data === "string" ? 0 : cue.data.end,
         }))
         .filter((x) => !x.text.includes("<c>")) as ResourceChunk[];
-      console.log(chunks);
 
       // join chunks into 256 token chunks
 
@@ -132,14 +124,14 @@ async function main() {
         });
       }
 
-      console.log("chunks to embed");
-      console.log(JSON.stringify(mergedChunks, null, 2));
       // embeddings get saved here
       // TODO: all clustered into one file
-      await embedText(vectorIndex, chunks, false);
+      console.log(`Embedding ${mergedChunks.length} chunks...`);
+      console.log(JSON.stringify(mergedChunks[0]));
+      await embedText(vectorIndex, mergedChunks, true);
 
       // Saving processed IDs
-      writeFileSync(processedFilePath, JSON.stringify(processedIds));
+      // writeFileSync(processedFilePath, JSON.stringify(processedIds));
     }
   }
 }

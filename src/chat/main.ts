@@ -1,18 +1,11 @@
 import * as readline from "node:readline/promises";
-import { answerAs } from "./generateHypotheticalAnswer";
-import {
-  OpenAIChatMessage,
-  OpenAIChatModel,
-  OpenAITextEmbeddingModel,
-  VectorIndexRetriever,
-  retrieve,
-  streamText,
-} from "modelfusion";
+import { OpenAIChatMessage, OpenAIChatModel, streamText } from "modelfusion";
 import { MyVectorIndex } from "../data/myVectorIndex";
+import { searchAs } from "../data/search";
 
 async function main() {
   // load the vector index:
-  const vectorIndex = (await MyVectorIndex.create()).vectorIndex;
+  const vectorIndex = await MyVectorIndex.create();
 
   // chat loop:
   const chat = readline.createInterface({
@@ -20,24 +13,9 @@ async function main() {
     output: process.stdout,
   });
 
-  const embeddingModel = new OpenAITextEmbeddingModel({
-    model: "text-embedding-ada-002",
-  });
-
   while (true) {
     const question = await chat.question("You: ");
-
-    // hypothetical document embeddings:
-    const hypotheticalAnswer = await answerAs(question, "David Deutsch"); // search for text chunks that are similar to the hypothetical answer:
-    const information = await retrieve(
-      new VectorIndexRetriever({
-        vectorIndex,
-        embeddingModel,
-        maxResults: 5,
-        similarityThreshold: 0.75,
-      }),
-      hypotheticalAnswer
-    );
+    const answer = await searchAs(vectorIndex, question, "David Deutsch");
 
     // answer the user's question using the retrieved information:
     const textStream = await streamText(
@@ -57,7 +35,7 @@ async function main() {
         OpenAIChatMessage.user(question),
         OpenAIChatMessage.functionResult(
           "getInformation",
-          JSON.stringify(information)
+          JSON.stringify(answer)
         ),
       ]
     );

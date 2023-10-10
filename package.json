@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "ts-node src/data/update.ts",
     "embed": "ts-node src/data/embed.ts",
+    "search": "ts-node src/data/search.ts",
     "chat": "ts-node src/data/chat.ts"
   },
   "author": "",
