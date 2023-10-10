@@ -55,7 +55,7 @@ async function main() {
     for (const file of videoFiles) {
       console.log(`Processing ${file}...`);
       const videoId = path.basename(file, ".en.vtt");
-      const videoTitleCommand = `yt-dlp --get-title -i "${videoId}"`;
+      const videoTitleCommand = `yt-dlp --get-title -i "https://www.youtube.com/watch?v=${videoId}"`;
       const videoTitle = execSync(videoTitleCommand).toString().trim();
       const filePath = path.join(channelPath, file);
       const rawTranscript = readFileSync(filePath, "utf-8");
