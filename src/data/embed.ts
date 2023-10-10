@@ -7,6 +7,7 @@ import { allTranscriptsFolder, getEmbeddedVideosFilePath } from "./filesystem";
 import { parseSync } from "subtitle";
 import dotenv from "dotenv";
 import { embeddingModel } from "./embeddingModel";
+import { execSync } from "node:child_process";
 
 dotenv.config();
 
@@ -54,6 +55,8 @@ async function main() {
     for (const file of videoFiles) {
       console.log(`Processing ${file}...`);
       const videoId = path.basename(file, ".en.vtt");
+      const videoTitleCommand = `yt-dlp --get-title -i "${videoId}"`;
+      const videoTitle = execSync(videoTitleCommand).toString().trim();
       const filePath = path.join(channelPath, file);
       const rawTranscript = readFileSync(filePath, "utf-8");
       const parsedTranscript = parseSync(rawTranscript);
@@ -106,6 +109,7 @@ async function main() {
             url: chunk.url,
             start: tempStart,
             end: tempEnd,
+            title: videoTitle,
           });
           tempText = chunk.text;
           tempStart = chunk.start;
@@ -121,11 +125,11 @@ async function main() {
           url: chunks[chunks.length - 1].url,
           start: tempStart,
           end: tempEnd,
+          title: videoTitle,
         });
       }
 
       // embeddings get saved here
-      // TODO: all clustered into one file
       console.log(`Embedding ${mergedChunks.length} chunks...`);
       console.log(JSON.stringify(mergedChunks[0]));
       await embedText(vectorIndex, mergedChunks, true);

@@ -1,13 +1,10 @@
-import {
-  MemoryVectorIndex,
-  TextChunk,
-  upsertIntoVectorIndex,
-} from "modelfusion";
+import { MemoryVectorIndex, upsertIntoVectorIndex } from "modelfusion";
 import * as fs from "node:fs/promises";
-import { ResourceChunk } from "../types";
+import { ResourceChunk, YouTubeChunkSchema } from "../types";
 import { vectorDataFile } from "./filesystem";
 import { existsSync } from "node:fs";
 import { embeddingModel } from "./embeddingModel";
+import { ZodSchema } from "./ZodSchema";
 
 type VectorIndex = MemoryVectorIndex<ResourceChunk>;
 
@@ -25,13 +22,14 @@ export class MyVectorIndex {
     const vectorData = await fs.readFile(vectorDataFile, "utf-8");
     const vectorIndex = await MemoryVectorIndex.deserialize<ResourceChunk>({
       serializedData: vectorData,
+      schema: new ZodSchema(YouTubeChunkSchema),
     });
     return new MyVectorIndex(vectorIndex);
   }
 
   async upsertIntoVectorIndex(args: {
-    objects: TextChunk[];
-    getValueToEmbed: (chunk: TextChunk) => string;
+    objects: ResourceChunk[];
+    getValueToEmbed: (chunk: ResourceChunk) => string;
   }) {
     await upsertIntoVectorIndex({
       vectorIndex: this.vectorIndex,

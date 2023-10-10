@@ -1,4 +1,4 @@
-import { TextChunk } from "modelfusion";
+import { z } from "zod";
 
 export type ResourceType = "youtube" | "pdf" | "website";
 export interface YouTubeResource {
@@ -14,13 +14,15 @@ export interface WebsiteResource {
   url: string;
 }
 
-export interface YouTubeChunk extends TextChunk {
-  type: "youtube";
-  url: string;
-  // seconds
-  start: number;
-  // seconds
-  end: number;
-}
+export const YouTubeChunkSchema = z.object({
+  type: z.literal("youtube"),
+  url: z.string(),
+  start: z.number(),
+  end: z.number(),
+  text: z.string(),
+  title: z.string(),
+});
+
+export type YouTubeChunk = z.infer<typeof YouTubeChunkSchema>;
 
 export type ResourceChunk = YouTubeChunk;
