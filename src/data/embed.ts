@@ -131,7 +131,8 @@ async function main() {
       await embedText(vectorIndex, mergedChunks, true);
 
       // Saving processed IDs
-      // writeFileSync(processedFilePath, JSON.stringify(processedIds));
+      processedIds.push(videoId);
+      writeFileSync(processedFilePath, JSON.stringify(processedIds));
     }
   }
 }

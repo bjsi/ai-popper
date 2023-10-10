@@ -1,6 +1,5 @@
 import {
-  OpenAIChatMessage,
-  OpenAIChatModel,
+  OpenAITextGenerationModel,
   VectorIndexRetriever,
   retrieve,
   streamText,
@@ -39,16 +38,24 @@ export async function answerAs(
   question: string,
   personality: "David Deutsch" | "Karl Popper"
 ) {
+  const bios = {
+    "David Deutsch":
+      "author of The Fabric of Reality and The Beginning of Infinity.",
+    "Karl Popper": "author of The Logic of Scientific Discovery.",
+  };
   // hypothetical document embeddings:
   const hypotheticalAnswerStream = await streamText(
-    // use cheaper model to generate hypothetical answer:
-    new OpenAIChatModel({ model: "gpt-3.5-turbo", temperature: 0 }),
-    [
-      OpenAIChatMessage.system(
-        `Answer the following question as ${personality}:`
-      ),
-      OpenAIChatMessage.user(question),
-    ]
+    // use cheap, fast model to generate hypothetical answer:
+    new OpenAITextGenerationModel({
+      model: "gpt-3.5-turbo-instruct",
+      temperature: 0,
+      maxCompletionTokens: 200,
+    }),
+    `
+Reply to the following question in the style of ${personality}, ${
+      bios[personality]
+    }
+Question: ${question}${question.endsWith("?") ? "" : "?"}`.trim()
   );
 
   console.log("Hypothetical answer: ");

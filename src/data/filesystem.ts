@@ -8,7 +8,10 @@ export const allProcessdVideosFolder = path.join(
   "youtube/downloadedTranscripts"
 );
 export const sourcesFile = path.join(__dirname, "sources.json");
-export const embeddedVideosFolder = path.join(__dirname, "embeddedVideos");
+export const embeddedVideosFolder = path.join(
+  __dirname,
+  "youtube/embeddedVideos"
+);
 
 /**
  * Contains transcripts of the form: <channelName>/<videoId>.en.vtt
