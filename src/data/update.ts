@@ -1,7 +1,6 @@
 import { readFileSync, existsSync, mkdirSync, writeFileSync } from "fs";
 import { execSync } from "child_process";
 import { z } from "zod";
-import path from "path";
 import {
   allProcessdVideosFolder,
   allTranscriptsFolder,
