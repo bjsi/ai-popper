@@ -24,9 +24,9 @@ async function main() {
       [
         OpenAIChatMessage.system(
           // Instruct the model on how to answer:
-          `Answer the user's question using only the provided information.\n` +
+          `Answer the user's question in the style of David Deutsch using only the provided information.\n` +
             // Provide some context:
-            `Include the page number of the information that you are using.\n` +
+            `Include footnotes with sources to the information that you are using.\n` +
             // To reduce hallucination, it is important to give the model an answer
             // that it can use when the information is not sufficient:
             `If the user's question cannot be answered using the provided information, ` +
