@@ -1,26 +1,25 @@
 {
   "name": "ai-popper",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "ts-node src/data/update.ts",
-    "embed": "ts-node src/data/embed.ts",
-    "search": "ts-node src/data/search.ts",
-    "chat": "ts-node src/chat/main.ts"
+    "chat": "yarn && yarn workspace shared-lib build && yarn workspace cli chat",
+    "search": "yarn && yarn workspace shared-lib build && yarn workspace cli search",
+    "server": "yarn && concurrently \"yarn workspace shared-lib build:watch\" \"nodemon -w packages/shared-lib/dist -x 'yarn workspace ui server'\"",
+    "client": "yarn && yarn workspace ui client"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/node": "^20.8.3",
     "dotenv": "^16.3.1",
     "modelfusion": "^0.41.1",
-    "node-webvtt": "^1.9.4",
-    "pdfjs-dist": "^3.11.174",
-    "subtitle": "^4.2.1",
     "ts-node": "^10.9.1",
     "zod": "^3.22.4",
     "zod-to-json-schema": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "nodemon": "^3.0.1"
   }
 }

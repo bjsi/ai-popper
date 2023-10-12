@@ -1,7 +1,7 @@
 import * as readline from "node:readline/promises";
 import { OpenAIChatMessage, OpenAIChatModel, streamText } from "modelfusion";
-import { MyVectorIndex } from "../data/myVectorIndex";
-import { searchAs } from "../data/search";
+import { MyVectorIndex } from "shared-lib";
+import { searchAs } from "shared-lib";
 
 async function main() {
   // load the vector index:

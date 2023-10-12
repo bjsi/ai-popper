@@ -67,30 +67,3 @@ Question: ${question}${question.endsWith("?") ? "" : "?"}`.trim()
 
   return hypotheticalAnswer;
 }
-
-async function main() {
-  if (process.argv.length < 3) {
-    console.log("Please provide a query");
-    return;
-  }
-
-  const query = process.argv[2];
-  const personality = process.argv[3];
-
-  const vectorIndex = await MyVectorIndex.create();
-  if (personality) {
-    const information = await searchAs(
-      vectorIndex,
-      query,
-      personality as "David Deutsch"
-    );
-    console.log(information);
-    return;
-  } else {
-    const information = await search(vectorIndex, query);
-    console.log(information);
-    return;
-  }
-}
-
-main();

@@ -1,0 +1,20 @@
+{
+  "name": "shared-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "update": "ts-node src/data/update.ts",
+    "embed": "ts-node src/data/embed.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-webvtt": "^1.9.4",
+    "pdfjs-dist": "^3.11.174",
+    "subtitle": "^4.2.1"
+  }
+}

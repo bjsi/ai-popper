@@ -17,8 +17,10 @@ export class MyVectorIndex {
 
   static async create() {
     if (!existsSync(vectorDataFile)) {
+      console.log("No vector data found, creating new vector index.");
       return new MyVectorIndex(new MemoryVectorIndex<ResourceChunk>());
     }
+    console.log("Loading vectors from", vectorDataFile, "...");
     const vectorData = await fs.readFile(vectorDataFile, "utf-8");
     const vectorIndex = await MemoryVectorIndex.deserialize<ResourceChunk>({
       serializedData: vectorData,
