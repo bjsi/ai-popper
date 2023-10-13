@@ -86,13 +86,17 @@ Question: ${question}${question.endsWith("?") ? "" : "?"}`.trim(),
 }
 
 export const chatAs = async (args: {
-  question: string;
   messages: OpenAIChatMessage[];
   personality: "David Deutsch" | "Karl Popper";
   signal?: AbortSignal;
 }) => {
-  const { question, messages, personality, signal } = args;
-  const answer = await searchAs({ question, personality, signal });
+  const { messages, personality, signal } = args;
+  const question = messages[messages.length - 1].content!;
+  const answer = await searchAs({
+    question,
+    personality,
+    signal,
+  });
   // answer the user's question using the retrieved information:
   const textStream = await streamText(
     // use stronger model to answer the question:
