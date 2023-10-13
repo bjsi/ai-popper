@@ -11,8 +11,11 @@ async function main() {
   console.log("Welcome to hypothetical embedding search!");
   console.log("Searching as: David Deutsch");
   while (true) {
-    const query = await chat.question("You: ");
-    const information = await searchAs(query, "David Deutsch");
+    const question = await chat.question("You: ");
+    const information = await searchAs({
+      personality: "David Deutsch",
+      question,
+    });
     console.log(information);
     return;
   }

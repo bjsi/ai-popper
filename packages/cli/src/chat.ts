@@ -1,6 +1,6 @@
 import * as readline from "node:readline/promises";
 import { OpenAIChatMessage, OpenAIChatModel, streamText } from "modelfusion";
-import { searchAs } from "shared-lib";
+import { chatAs } from "shared-lib/src/data/search";
 
 async function main() {
   // chat loop:
@@ -9,38 +9,24 @@ async function main() {
     output: process.stdout,
   });
 
+  const messages: OpenAIChatMessage[] = [];
   while (true) {
     const question = await chat.question("You: ");
-    const answer = await searchAs(question, "David Deutsch");
-
-    // answer the user's question using the retrieved information:
-    const textStream = await streamText(
-      // use stronger model to answer the question:
-      new OpenAIChatModel({ model: "gpt-4", temperature: 0 }),
-      [
-        OpenAIChatMessage.system(
-          // Instruct the model on how to answer:
-          `Answer the user's question in the style of David Deutsch using only the provided information.\n` +
-            // Provide some context:
-            `Include footnotes with sources to the information that you are using.\n` +
-            // To reduce hallucination, it is important to give the model an answer
-            // that it can use when the information is not sufficient:
-            `If the user's question cannot be answered using the provided information, ` +
-            `respond with "I don't know".`
-        ),
-        OpenAIChatMessage.user(question),
-        OpenAIChatMessage.functionResult(
-          "getInformation",
-          JSON.stringify(answer)
-        ),
-      ]
-    );
+    const textStream = await chatAs({
+      personality: "David Deutsch",
+      question,
+      messages,
+    });
 
     // stream the answer to the terminal:
     process.stdout.write("\nAI : ");
+    let answer: string = "";
     for await (const textFragment of textStream) {
       process.stdout.write(textFragment);
+      answer += textFragment;
     }
+    messages.push({ role: "user", content: question });
+    messages.push({ role: "assistant", content: answer });
     process.stdout.write("\n\n");
   }
 }
