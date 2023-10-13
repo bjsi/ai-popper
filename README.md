@@ -9,14 +9,21 @@
 
 ## Requirements
 
-- You must install `yt-dlp` to download transcripts for new videos.
-- You must create a `.env` file in the project root with an `OPENAI_API_KEY` variable.
+- You must create a `.env` file in the project root directory with an `OPENAI_API_KEY` variable.
 
 ## How to Run
 
-- `yarn run chat` to start a new chat session.
+You can run this program using a chat UI similar to the ChatGPT UI, or you can use the command line interface.
 
-You probably don't need to run these, I'll keep them up to date and push here!
+### UI
 
-- `yarn run update` to download transcripts for the latest videos in the tracked channels (see `sources.json`).
-- `yarn run embed` to create embeddings from the latest transcripts.
+- `yarn server` to start the server.
+- `yarn client` to start the frontend.
+
+### CLI
+
+- `yarn chat` to start a new chat session.
+- `yarn search` to start a text embedding search session (useful for debugging).
+- `yarn update` to download transcripts for the latest videos in the tracked resources file (see `sources.json`).
+  - You must install `yt-dlp` to download transcripts for new videos.
+- `yarn embed` to create embeddings from the latest transcripts.
