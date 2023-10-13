@@ -1,5 +1,4 @@
 import { splitAtToken, splitTextChunks } from "modelfusion";
-import { MyVectorIndex } from "./myVectorIndex";
 import { ResourceChunk } from "../types";
 import path from "node:path";
 import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
@@ -8,14 +7,15 @@ import { parseSync } from "subtitle";
 import dotenv from "dotenv";
 import { embeddingModel } from "./embeddingModel";
 import { execSync } from "node:child_process";
+import { getVectorIndex } from "./myVectorIndex";
 
 dotenv.config();
 
 export async function embedText<ChunkType extends ResourceChunk>(
-  vectorIndex: MyVectorIndex,
   chunks: ChunkType[],
   allowSplit: boolean
 ) {
+  const vectorIndex = await getVectorIndex();
   if (allowSplit) {
     chunks = await splitTextChunks(
       splitAtToken({
@@ -33,8 +33,6 @@ export async function embedText<ChunkType extends ResourceChunk>(
 }
 
 async function main() {
-  const vectorIndex = await MyVectorIndex.create();
-
   // For each channel folder in the transcripts folder, read the transcript and embed
   const channelFolders = readdirSync(allTranscriptsFolder);
 
@@ -132,7 +130,7 @@ async function main() {
       // embeddings get saved here
       console.log(`Embedding ${mergedChunks.length} chunks...`);
       console.log(JSON.stringify(mergedChunks[0]));
-      await embedText(vectorIndex, mergedChunks, true);
+      await embedText(mergedChunks, true);
 
       // Saving processed IDs
       processedIds.push(videoId);

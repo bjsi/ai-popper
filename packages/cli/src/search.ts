@@ -1,4 +1,4 @@
-import { MyVectorIndex, searchAs, search } from "shared-lib";
+import { searchAs, search } from "shared-lib";
 import * as readline from "node:readline/promises";
 
 async function main() {
@@ -12,8 +12,7 @@ async function main() {
   console.log("Searching as: David Deutsch");
   while (true) {
     const query = await chat.question("You: ");
-    const vectorIndex = await MyVectorIndex.create();
-    const information = await searchAs(vectorIndex, query, "David Deutsch");
+    const information = await searchAs(query, "David Deutsch");
     console.log(information);
     return;
   }

@@ -4,13 +4,14 @@ import {
   retrieve,
   streamText,
 } from "modelfusion";
-import { MyVectorIndex } from "./myVectorIndex";
 import { embeddingModel } from "./embeddingModel";
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
+import { getVectorIndex } from "./myVectorIndex";
 
 dotenv.config();
 
-export async function search(vectorIndex: MyVectorIndex, query: string) {
+export async function search(query: string) {
+  const vectorIndex = await getVectorIndex();
   const information = await retrieve(
     new VectorIndexRetriever({
       vectorIndex: vectorIndex.vectorIndex,
@@ -24,14 +25,13 @@ export async function search(vectorIndex: MyVectorIndex, query: string) {
 }
 
 export async function searchAs(
-  vectorIndex: MyVectorIndex,
   query: string,
   personality: "David Deutsch" | "Karl Popper"
 ) {
   console.log("Searching for: " + query);
   console.log("As: " + personality);
   const hypotheticalAnswer = await answerAs(query, personality); // search for text chunks that are similar to the hypothetical answer:
-  return await search(vectorIndex, hypotheticalAnswer);
+  return await search(hypotheticalAnswer);
 }
 
 export async function answerAs(

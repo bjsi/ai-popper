@@ -2,3 +2,4 @@
 node_modules
 dist
 vectorData.json
+.yarn

@@ -8,7 +8,15 @@ import { ZodSchema } from "./ZodSchema";
 
 type VectorIndex = MemoryVectorIndex<ResourceChunk>;
 
-export class MyVectorIndex {
+let vectorIndex: MyVectorIndex | undefined;
+export const getVectorIndex = async () => {
+  if (!vectorIndex) {
+    vectorIndex = await MyVectorIndex.create();
+  }
+  return vectorIndex;
+};
+
+class MyVectorIndex {
   vectorIndex: VectorIndex;
 
   private constructor(vectorIndex: VectorIndex) {

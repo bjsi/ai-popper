@@ -4,12 +4,14 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "chat": "yarn && yarn workspace shared-lib build && yarn workspace cli chat",
-    "search": "yarn && yarn workspace shared-lib build && yarn workspace cli search",
-    "server": "yarn && concurrently \"yarn workspace shared-lib build:watch\" \"nodemon -w packages/shared-lib/dist -x 'yarn workspace ui server'\"",
-    "client": "yarn && yarn workspace ui client"
+    "chat": "yarn workspace cli chat",
+    "search": "yarn workspace cli search",
+    "server": "yarn workspace ui server",
+    "client": "yarn workspace ui client"
   },
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -20,6 +22,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.8.3",
-    "nodemon": "^3.0.1"
-  }
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "packageManager": "yarn@3.6.4"
 }

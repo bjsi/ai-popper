@@ -1,12 +1,8 @@
 import * as readline from "node:readline/promises";
 import { OpenAIChatMessage, OpenAIChatModel, streamText } from "modelfusion";
-import { MyVectorIndex } from "shared-lib";
 import { searchAs } from "shared-lib";
 
 async function main() {
-  // load the vector index:
-  const vectorIndex = await MyVectorIndex.create();
-
   // chat loop:
   const chat = readline.createInterface({
     input: process.stdin,
@@ -15,7 +11,7 @@ async function main() {
 
   while (true) {
     const question = await chat.question("You: ");
-    const answer = await searchAs(vectorIndex, question, "David Deutsch");
+    const answer = await searchAs(question, "David Deutsch");
 
     // answer the user's question using the retrieved information:
     const textStream = await streamText(

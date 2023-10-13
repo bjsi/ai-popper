@@ -6,9 +6,5 @@
   "scripts": {
     "search": "ts-node src/search.ts",
     "chat": "ts-node src/chat.ts"
-  },
-  "dependencies": {
-    "shared-lib": "./packages/shared-lib",
-    "workspace": "^0.0.1-preview.1"
   }
 }
