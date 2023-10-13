@@ -2,6 +2,8 @@
 
 - Chat with David Deutsch, Karl Popper and Brett Hall using GPT.
 
+![img](https://raw.githubusercontent.com/bjsi/ai-popper/main/img/define-optimism.png)
+
 ## Features
 
 - This repo contains text embeddings for lots of critical rationalism resources.
