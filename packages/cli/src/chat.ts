@@ -1,5 +1,5 @@
 import * as readline from "node:readline/promises";
-import { OpenAIChatMessage, OpenAIChatModel, streamText } from "modelfusion";
+import { OpenAIChatMessage } from "modelfusion";
 import { chatAs } from "shared-lib/src/data/search";
 
 async function main() {
@@ -14,8 +14,13 @@ async function main() {
     const question = await chat.question("You: ");
     const textStream = await chatAs({
       personality: "David Deutsch",
-      question,
-      messages,
+      messages: [
+        ...messages,
+        {
+          role: "user",
+          content: question,
+        },
+      ],
     });
 
     // stream the answer to the terminal:

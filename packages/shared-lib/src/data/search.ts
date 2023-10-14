@@ -106,7 +106,7 @@ export const chatAs = async (args: {
         // Instruct the model on how to answer:
         `Answer the user's question in the style of ${personality} using only the provided information.\n` +
           // Provide some context:
-          `Include footnotes with sources to the information that you are using.\n` +
+          `Include footnotes with sources to the information that you are using. Use this kind of markdown footnote syntax: [^1]\n` +
           // To reduce hallucination, it is important to give the model an answer
           // that it can use when the information is not sufficient:
           `If the user's question cannot be answered using the provided information, ` +
