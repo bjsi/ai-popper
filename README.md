@@ -18,7 +18,9 @@ Welcome to AI Popper, a chatbot I built with GPT to help me learn more about [cr
 - **Footnotes to Sources**: Every answer includes footnotes to original sources from books, articles, websites and videos.
 - **Audio Playback**: Optionally listen to answers in the voice of David Deutsch instead of reading them.
 
-<img src="https://raw.githubusercontent.com/bjsi/ai-popper/main/img/define-optimism.png" alt="Define Optimism" height="400px">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/bjsi/ai-popper/main/img/define-optimism.png" alt="Define Optimism" height="400px">
+</div>
 
 ### 📽️ Tutorial
 
