@@ -3,3 +3,4 @@ node_modules
 dist
 vectorData.json
 .yarn
+vectorData.json-bkp

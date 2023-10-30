@@ -76,8 +76,14 @@ async function main() {
             .replace(/\[.*?\]/g, ""),
           type: "youtube",
           url: `https://www.youtube.com/watch?v=${videoId}`,
-          start: typeof cue.data === "string" ? 0 : cue.data.start,
-          end: typeof cue.data === "string" ? 0 : cue.data.end,
+          start:
+            typeof cue.data === "string"
+              ? 0
+              : cue.data.start <= 10_000
+              ? 0
+              : Math.floor(cue.data.start / 1000),
+          end:
+            typeof cue.data === "string" ? 0 : Math.ceil(cue.data.end / 1000),
         }))
         .filter((x) => !x.text.includes("<c>")) as ResourceChunk[];
 
