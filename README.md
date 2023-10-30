@@ -26,6 +26,15 @@ Welcome to AI Popper, a chatbot I built with GPT to help me learn more about [cr
 
 - TODO: AI Popper will be hosted on a website soon. In the meantime, you can run it locally using the instructions below.
 
+## How it Works
+
+AI Popper is built using OpenAI's GPT chat models and text embeddings. Here's the full breakdown of how it works:
+
+1. I downloaded a large number of resources related to critical rationalism, including books, articles, websites and videos.
+2. I split each resource into paragraphs and fed each paragraph into OpenAI's text embedding model to create an embedding for each paragraph. An embedding is a vector of numbers that represents the meaning of the text.
+3. When you ask a question, I generate a hypothetical answer using OpenAI's `gpt-3.5-turbo-instruct` model and create an embedding for that answer.
+4. Then I compare the embedding of the hypothetical answer to the embeddings of all the paragraphs. I pick the closest embeddings and give those paragraphs to GPT-4 to generate a real answer with footnotes.
+
 ## How to Run
 
 - You can run this program locally using a chat UI similar to the ChatGPT UI, or you can use the command line interface.
