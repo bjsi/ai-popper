@@ -7,7 +7,7 @@ import { parseSync } from "subtitle";
 import dotenv from "dotenv";
 import { embeddingModel } from "./embeddingModel";
 import { execSync } from "node:child_process";
-import { getVectorIndex } from "./myVectorIndex";
+import { upsertIntoVectorIndex } from "./myVectorIndex";
 
 dotenv.config();
 
@@ -15,7 +15,6 @@ export async function embedText<ChunkType extends ResourceChunk>(
   chunks: ChunkType[],
   allowSplit: boolean
 ) {
-  const vectorIndex = await getVectorIndex();
   if (allowSplit) {
     chunks = await splitTextChunks(
       splitAtToken({
@@ -26,7 +25,7 @@ export async function embedText<ChunkType extends ResourceChunk>(
     );
   }
 
-  await vectorIndex.upsertIntoVectorIndex({
+  await upsertIntoVectorIndex({
     objects: chunks,
     getValueToEmbed: (chunk) => chunk.text,
   });

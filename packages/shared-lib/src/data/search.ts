@@ -2,33 +2,19 @@ import {
   OpenAIChatMessage,
   OpenAIChatModel,
   OpenAITextGenerationModel,
-  VectorIndexRetriever,
-  retrieve,
+  embed,
   streamText,
 } from "modelfusion";
 import { embeddingModel } from "./embeddingModel";
 import * as dotenv from "dotenv";
-import { getVectorIndex } from "./myVectorIndex";
+import { searchVectors } from "../db";
 
 dotenv.config();
 
 export async function search(args: { query: string; signal?: AbortSignal }) {
-  const { query, signal } = args;
-  const vectorIndex = await getVectorIndex();
-  const information = await retrieve(
-    new VectorIndexRetriever({
-      vectorIndex: vectorIndex.vectorIndex,
-      embeddingModel,
-      maxResults: 5,
-      similarityThreshold: 0.75,
-    }),
-    query,
-    {
-      run: {
-        abortSignal: signal,
-      },
-    }
-  );
+  const { query } = args;
+  const queryEmbedding = await embed(embeddingModel, query);
+  const information = await searchVectors(queryEmbedding, 0.6);
   return information;
 }
 

@@ -7,13 +7,15 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "update": "ts-node src/data/update.ts",
-    "embed": "ts-node src/data/embed.ts"
+    "embed": "ts-node src/data/embed.ts",
+    "preinstall": "./scripts/install.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "node-webvtt": "^1.9.4",
     "pdfjs-dist": "^3.11.174",
+    "sqlite3": "^5.1.6",
     "subtitle": "^4.2.1"
   }
 }

@@ -17,7 +17,6 @@ async function main() {
       question,
     });
     console.log(information);
-    return;
   }
 }
 
