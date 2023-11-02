@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/ui/*"
   ],
   "scripts": {
     "chat": "yarn workspace cli chat",
