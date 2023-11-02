@@ -12,7 +12,8 @@
     "chat": "yarn workspace cli chat",
     "search": "yarn workspace cli search",
     "server": "yarn workspace ui server",
-    "client": "yarn workspace ui client"
+    "client": "yarn workspace ui client",
+    "start": "concurrently \"yarn client\" \"yarn server\""
   },
   "dependencies": {
     "dotenv": "^16.3.1",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.8.3",
+    "concurrently": "^8.2.2",
     "nodemon": "^3.0.1",
     "typescript": "^5.2.2"
   },

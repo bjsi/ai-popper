@@ -1029,6 +1029,7 @@ __metadata:
   resolution: "ai-popper@workspace:."
   dependencies:
     "@types/node": ^20.8.3
+    concurrently: ^8.2.2
     dotenv: ^16.3.1
     modelfusion: ^0.41.1
     nodemon: ^3.0.1
@@ -1619,7 +1620,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"concurrently@npm:^8.2.1":
+"concurrently@npm:^8.2.1, concurrently@npm:^8.2.2":
   version: 8.2.2
   resolution: "concurrently@npm:8.2.2"
   dependencies:
