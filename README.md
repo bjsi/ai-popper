@@ -24,7 +24,7 @@ Welcome to AI Popper, a chatbot I built with GPT to help me learn more about [cr
 
 ### 📽️ Tutorial
 
-- TODO: AI Popper will be hosted on a website soon. In the meantime, you can run it locally using the instructions below.
+- You can try out AI Popper online [here](https://ai-popper-chat.onrender.com/). No need to install anything, just enter your OpenAI key and it should work.
 
 ## How it Works
 
