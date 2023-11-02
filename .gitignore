@@ -2,8 +2,8 @@
 node_modules
 dist
 vectorData.json
-.yarn
 vectorData.json-bkp
 vector0.dylib
 vss0.dylib
 vectors.sqlite
+.yarn/cache
