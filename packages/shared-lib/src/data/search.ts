@@ -1,4 +1,5 @@
 import {
+  OpenAIApiConfiguration,
   OpenAIChatMessage,
   OpenAIChatModel,
   OpenAITextGenerationModel,
@@ -74,6 +75,7 @@ Question: ${question}${question.endsWith("?") ? "" : "?"}`.trim(),
 export const chatAs = async (args: {
   messages: OpenAIChatMessage[];
   personality: "David Deutsch" | "Karl Popper";
+  openAIKey?: string;
   signal?: AbortSignal;
 }) => {
   const { messages, personality, signal } = args;
@@ -86,7 +88,15 @@ export const chatAs = async (args: {
   // answer the user's question using the retrieved information:
   const textStream = await streamText(
     // use stronger model to answer the question:
-    new OpenAIChatModel({ model: "gpt-4", temperature: 0 }),
+    new OpenAIChatModel({
+      model: "gpt-4",
+      temperature: 0,
+      api:
+        args.openAIKey !== undefined
+          ? new OpenAIApiConfiguration({ apiKey: args.openAIKey })
+          : undefined,
+    }),
+
     [
       OpenAIChatMessage.system(
         // Instruct the model on how to answer:

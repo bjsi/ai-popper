@@ -1,6 +1,6 @@
 import * as readline from "node:readline/promises";
 import { OpenAIChatMessage } from "modelfusion";
-import { chatAs } from "shared-lib/src/data/search";
+import { chatAs } from "shared-lib";
 
 async function main() {
   // chat loop:

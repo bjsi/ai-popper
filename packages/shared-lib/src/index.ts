@@ -1,1 +1,1 @@
-export { searchAs, search } from "./data/search";
+export { searchAs, search, chatAs } from "./data/search";
