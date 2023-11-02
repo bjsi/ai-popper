@@ -2,19 +2,31 @@ import {
   OpenAIApiConfiguration,
   OpenAIChatMessage,
   OpenAIChatModel,
+  OpenAITextEmbeddingModel,
   OpenAITextGenerationModel,
   embed,
   streamText,
 } from "modelfusion";
-import { embeddingModel } from "./embeddingModel";
 import * as dotenv from "dotenv";
 import { searchVectors } from "../db";
 
 dotenv.config();
 
-export async function search(args: { query: string; signal?: AbortSignal }) {
+export async function search(args: {
+  query: string;
+  signal?: AbortSignal;
+  openAIKey?: string;
+}) {
   const { query } = args;
-  const queryEmbedding = await embed(embeddingModel, query);
+  const queryEmbedding = await embed(
+    new OpenAITextEmbeddingModel({
+      model: "text-embedding-ada-002",
+      api: new OpenAIApiConfiguration({
+        apiKey: args.openAIKey || process.env.OPENAI_API_KEY,
+      }),
+    }),
+    query
+  );
   const information = await searchVectors(queryEmbedding, 0.6);
   return information;
 }
@@ -22,6 +34,7 @@ export async function search(args: { query: string; signal?: AbortSignal }) {
 export async function searchAs(args: {
   question: string;
   personality: "David Deutsch" | "Karl Popper";
+  openAIKey?: string;
   signal?: AbortSignal;
 }) {
   const { question: query, personality, signal } = args;
@@ -30,12 +43,17 @@ export async function searchAs(args: {
   const hypotheticalAnswer = await answerAs({
     ...args,
   }); // search for text chunks that are similar to the hypothetical answer:
-  return await search({ query: hypotheticalAnswer, signal });
+  return await search({
+    query: hypotheticalAnswer,
+    signal,
+    openAIKey: args.openAIKey,
+  });
 }
 
 export async function answerAs(args: {
   question: string;
   personality: "David Deutsch" | "Karl Popper";
+  openAIKey?: string;
   signal?: AbortSignal;
 }) {
   const { question, personality, signal } = args;
@@ -51,6 +69,9 @@ export async function answerAs(args: {
       model: "gpt-3.5-turbo-instruct",
       temperature: 0,
       maxCompletionTokens: 200,
+      api: new OpenAIApiConfiguration({
+        apiKey: args.openAIKey || process.env.OPENAI_API_KEY,
+      }),
     }),
     `
 Reply to the following question in the style of ${personality}, ${
@@ -84,6 +105,7 @@ export const chatAs = async (args: {
     question,
     personality,
     signal,
+    openAIKey: args.openAIKey,
   });
   // answer the user's question using the retrieved information:
   const textStream = await streamText(
@@ -91,10 +113,7 @@ export const chatAs = async (args: {
     new OpenAIChatModel({
       model: "gpt-4",
       temperature: 0,
-      api:
-        args.openAIKey !== undefined
-          ? new OpenAIApiConfiguration({ apiKey: args.openAIKey })
-          : undefined,
+      api: new OpenAIApiConfiguration({ apiKey: args.openAIKey }),
     }),
 
     [
