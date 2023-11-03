@@ -1,6 +1,6 @@
 services:
   # Static site service for the client
-  - type: static
+  - type: web
     name: chat-with-popper
     env: static
     buildCommand: cd packages/ui && yarn && cd client && yarn build
