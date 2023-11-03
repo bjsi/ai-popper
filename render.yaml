@@ -1,0 +1,25 @@
+services:
+  # Static site service for the client
+  - type: web
+    name: chat-with-popper
+    env: static
+    buildCommand: cd packages/ui && yarn && cd client && yarn build
+    staticPublishPath: ./packages/ui/client/dist
+    # Location of the client code within your repository
+    branch: main
+    envVars:
+      - key: SKIP_INSTALL_DEPS
+        value: true
+
+  # Web service for the server
+  - type: web
+    name: chat-with-popper-api
+    env: docker
+    dockerfilePath: ./packages/ui/server/Dockerfile
+    dockerContext: ./
+    branch: main
+    envVars:
+      - key: NODE_VERSION
+        value: 18.18.0
+      - key: SKIP_INSTALL_DEPS
+        value: true
