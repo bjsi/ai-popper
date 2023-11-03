@@ -8,7 +8,7 @@
     "build:watch": "tsc --watch",
     "update": "ts-node src/data/update.ts",
     "embed": "ts-node src/data/embed.ts",
-    "postinstall": "./scripts/install.sh"
+    "postinstall": "sh scripts/install.sh"
   },
   "author": "",
   "license": "ISC",

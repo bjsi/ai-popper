@@ -21,20 +21,14 @@ else
   exit 1
 fi
 
-if [ ! -e "src/lib/vector0.dylib" ]; then
-  echo "Downloading vector extension"
-  wget -O "src/lib/vector0.dylib" $vector_extension_url
-  echo "Downloaded vector extension to" $(pwd) "/src/lib/vector0.dylib"
-fi
+echo "Downloading vector extension"
+wget -O "src/lib/vector0.dylib" $vector_extension_url
+echo "Downloaded vector extension to" $(pwd) "/src/lib/vector0.dylib"
 
-if [ ! -e "src/lib/"$vss_extension_filename ]; then
-  echo "Downloading vss extension"
-  wget -O "src/lib/"$vss_extension_filename $vss_extension_url
-  echo "Downloaded vss extension to" $(pwd) $vss_extension_filename
-fi
+echo "Downloading vss extension"
+wget -O "src/lib/"$vss_extension_filename $vss_extension_url
+echo "Downloaded vss extension to" $(pwd) $vss_extension_filename
 
-if [ ! -e "src/vectors.sqlite" ]; then
-  echo "Downloading vectors.sqlite"
-  wget -O "src/vectors.sqlite" --no-check-certificate --no-proxy "https://ai-popper-vectors.s3.eu-north-1.amazonaws.com/vectors.sqlite"
-  echo "Downloaded vectors.sqlite to" $(pwd) "/src/vectors.sqlite"
-fi
+echo "Downloading vectors.sqlite"
+wget -O "src/vectors.sqlite" --no-check-certificate --no-proxy "https://ai-popper-vectors.s3.eu-north-1.amazonaws.com/vectors.sqlite"
+echo "Downloaded vectors.sqlite to" $(pwd) "/src/vectors.sqlite"
